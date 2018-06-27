@@ -1,0 +1,11 @@
+/Users/seb/_dev/Contrib/ProcessEngine/IdentityServer/bin/Debug/netcoreapp2.0/IdentityServer.deps.json
+/Users/seb/_dev/Contrib/ProcessEngine/IdentityServer/bin/Debug/netcoreapp2.0/IdentityServer.runtimeconfig.json
+/Users/seb/_dev/Contrib/ProcessEngine/IdentityServer/bin/Debug/netcoreapp2.0/IdentityServer.runtimeconfig.dev.json
+/Users/seb/_dev/Contrib/ProcessEngine/IdentityServer/bin/Debug/netcoreapp2.0/IdentityServer.dll
+/Users/seb/_dev/Contrib/ProcessEngine/IdentityServer/bin/Debug/netcoreapp2.0/IdentityServer.pdb
+/Users/seb/_dev/Contrib/ProcessEngine/IdentityServer/obj/Debug/netcoreapp2.0/IdentityServer.csproj.CoreCompileInputs.cache
+/Users/seb/_dev/Contrib/ProcessEngine/IdentityServer/obj/Debug/netcoreapp2.0/UserSecretsAssemblyInfo.cs
+/Users/seb/_dev/Contrib/ProcessEngine/IdentityServer/obj/Debug/netcoreapp2.0/IdentityServer.AssemblyInfoInputs.cache
+/Users/seb/_dev/Contrib/ProcessEngine/IdentityServer/obj/Debug/netcoreapp2.0/IdentityServer.AssemblyInfo.cs
+/Users/seb/_dev/Contrib/ProcessEngine/IdentityServer/obj/Debug/netcoreapp2.0/IdentityServer.dll
+/Users/seb/_dev/Contrib/ProcessEngine/IdentityServer/obj/Debug/netcoreapp2.0/IdentityServer.pdb
