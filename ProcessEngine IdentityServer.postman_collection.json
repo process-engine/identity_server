@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "2208adca-b75a-4bd3-b4db-8b13ab9ceb97",
+		"name": "ProcessEngine IdentityServer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "01 - Anmelden und Token beziehen",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "c222e41e-9b62-4e4c-bb96-f60e701b8dda",
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"postman.setEnvironmentVariable(\"bearer_token\", \"Bearer \" + jsonData.access_token);"
+						]
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "scope",
+							"value": "something",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "process-engine",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "secret",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/connect/token",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"connect",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "02 - Claim validieren",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{bearer_token}}"
+					},
+					{
+						"key": "",
+						"value": "",
+						"disabled": true
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:5000/claims/ensure/phone_number",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"claims",
+						"ensure",
+						"phone_number"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
