@@ -20,8 +20,8 @@ namespace ProcessEngine.IdentityServer.Web.Features.Claims
 
         private ITokenValidator TokenValidator { get; set; }
 
-        [HttpGet("ensure/{claim}")]
-        public async Task<IActionResult> EnsureHasClaimAsync(string claim)
+        [HttpGet("ensure/{claimName}")]
+        public async Task<IActionResult> EnsureHasClaimAsync(string claimName, string claimValue)
         {
             var headers = this.HttpContext.Request.Headers;
 
@@ -59,12 +59,21 @@ namespace ProcessEngine.IdentityServer.Web.Features.Claims
 
             var claims = validationResult.Claims;
 
-            var isClaimMissing = !claims.Any(currentClaim => currentClaim.Type.Equals(claim));
-            if (isClaimMissing)
+            var matchingClaim = claims.FirstOrDefault(currentClaim => currentClaim.Type.Equals(claimName));
+            if (matchingClaim == null)
             {
                 var responseFeature = this.Response.HttpContext.Features
                     .Get<IHttpResponseFeature>();
-                responseFeature.ReasonPhrase = $"Identity has no claim '{claim}'.";
+                responseFeature.ReasonPhrase = $"Identity has no claim '{claimName}'.";
+
+                return this.StatusCode((int)System.Net.HttpStatusCode.Forbidden);
+            }
+
+            if (!String.IsNullOrEmpty(claimValue) && matchingClaim.Value != claimValue)
+            {
+                var responseFeature = this.Response.HttpContext.Features
+                    .Get<IHttpResponseFeature>();
+                responseFeature.ReasonPhrase = $"Identity claim '{claimName}' does not have the required value.";
 
                 return this.StatusCode((int)System.Net.HttpStatusCode.Forbidden);
             }
