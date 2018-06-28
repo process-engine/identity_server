@@ -724,3 +724,1752 @@
 2018-06-27 13:10:10.583 +02:00 [DBG] Using Identity.Application as default scheme for forbid
 2018-06-27 13:10:11.835 +02:00 [WRN] The 'bool' property 'UserEditable' on entity type 'IdentityExpressClaimType' is configured with a database-generated default. This default will always be used when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used when the property value is 'null'.
 2018-06-27 13:10:25.280 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-27 13:19:59.892 +02:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-06-27 13:19:59.972 +02:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-06-27 13:19:59.972 +02:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-06-27 13:19:59.972 +02:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-06-27 13:19:59.973 +02:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-06-27 13:20:01.182 +02:00 [WRN] The 'bool' property 'UserEditable' on entity type 'IdentityExpressClaimType' is configured with a database-generated default. This default will always be used when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used when the property value is 'null'.
+2018-06-27 13:20:21.238 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-27 13:20:26.691 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-27 13:20:26.700 +02:00 [INF] Finding User by Subject fdcda532-ccca-44c0-b742-34ffe284509b
+2018-06-27 13:20:27.144 +02:00 [INF] Successfully Retrieved item by Subject fdcda532-ccca-44c0-b742-34ffe284509b
+2018-06-27 13:20:35.453 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-27 15:32:22.097 +02:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-06-27 15:32:22.174 +02:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-06-27 15:32:22.174 +02:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-06-27 15:32:22.174 +02:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-06-27 15:32:22.175 +02:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-06-27 15:32:23.402 +02:00 [WRN] The 'bool' property 'UserEditable' on entity type 'IdentityExpressClaimType' is configured with a database-generated default. This default will always be used when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used when the property value is 'null'.
+2018-06-27 15:32:53.733 +02:00 [DBG] Request path /connect/token matched to endpoint type Token
+2018-06-27 15:32:53.772 +02:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2018-06-27 15:32:53.773 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2018-06-27 15:32:53.779 +02:00 [WRN] Invalid HTTP request for token endpoint
+2018-06-27 15:33:50.122 +02:00 [DBG] Request path /connect/token matched to endpoint type Token
+2018-06-27 15:33:50.123 +02:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2018-06-27 15:33:50.123 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2018-06-27 15:33:50.127 +02:00 [WRN] Invalid HTTP request for token endpoint
+2018-06-27 15:35:14.151 +02:00 [DBG] Request path /connect/token matched to endpoint type Token
+2018-06-27 15:35:14.151 +02:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2018-06-27 15:35:14.151 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2018-06-27 15:35:14.152 +02:00 [WRN] Invalid HTTP request for token endpoint
+2018-06-27 15:35:45.790 +02:00 [DBG] Request path /connect/token matched to endpoint type Token
+2018-06-27 15:35:45.791 +02:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2018-06-27 15:35:45.791 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2018-06-27 15:35:45.791 +02:00 [WRN] Invalid HTTP request for token endpoint
+2018-06-27 15:39:06.032 +02:00 [DBG] Request path /connect/token matched to endpoint type Token
+2018-06-27 15:39:06.038 +02:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2018-06-27 15:39:06.039 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2018-06-27 15:39:06.047 +02:00 [DBG] Start token request.
+2018-06-27 15:39:06.055 +02:00 [DBG] Start client validation
+2018-06-27 15:39:06.061 +02:00 [DBG] Start parsing Basic Authentication secret
+2018-06-27 15:39:06.066 +02:00 [DBG] Start parsing for secret in post body
+2018-06-27 15:39:06.137 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2018-06-27 15:39:06.137 +02:00 [DBG] Secret id found: process-engine
+2018-06-27 15:39:07.033 +02:00 [DBG] process-engine found in database: true
+2018-06-27 15:39:07.049 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2018-06-27 15:39:07.050 +02:00 [DBG] Client validation success
+2018-06-27 15:39:07.100 +02:00 [INF] {
+  "Name": "Client Authentication Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1010,
+  "ClientId": "process-engine",
+  "AuthenticationMethod": "SharedSecret",
+  "ActivityId": "0HLES69U4JGH1:00000001",
+  "TimeStamp": "2018-06-27T13:39:07Z",
+  "ProcessId": 25269,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-27 15:39:07.115 +02:00 [DBG] Start token request validation
+2018-06-27 15:39:07.124 +02:00 [DBG] Start client credentials token request validation
+2018-06-27 15:39:07.185 +02:00 [DBG] Found [] identity scopes in database
+2018-06-27 15:39:07.369 +02:00 [DBG] Found ["something"] API scopes in database
+2018-06-27 15:39:07.392 +02:00 [DBG] Found [] identity scopes in database
+2018-06-27 15:39:07.396 +02:00 [DBG] Found ["something"] API scopes in database
+2018-06-27 15:39:07.399 +02:00 [DBG] process-engine credentials token request validation success
+2018-06-27 15:39:07.425 +02:00 [INF] Token request validation success
+{
+  "ClientId": "process-engine",
+  "ClientName": "PE",
+  "GrantType": "client_credentials",
+  "Scopes": "something",
+  "Raw": {
+    "grant_type": "client_credentials",
+    "scope": "something",
+    "client_id": "process-engine",
+    "client_secret": "***REDACTED***"
+  }
+}
+2018-06-27 15:39:07.455 +02:00 [DBG] Getting claims for access token for client: process-engine
+2018-06-27 15:39:07.581 +02:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "process-engine",
+  "ClientName": "PE",
+  "Endpoint": "Token",
+  "Scopes": "something",
+  "GrantType": "client_credentials",
+  "Tokens": [
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****ZT6w"
+    }
+  ],
+  "ActivityId": "0HLES69U4JGH1:00000001",
+  "TimeStamp": "2018-06-27T13:39:07Z",
+  "ProcessId": 25269,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-27 15:39:07.582 +02:00 [DBG] Token request success.
+2018-06-27 15:40:31.343 +02:00 [DBG] Request path /connect/token matched to endpoint type Token
+2018-06-27 15:40:31.343 +02:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2018-06-27 15:40:31.343 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2018-06-27 15:40:31.343 +02:00 [DBG] Start token request.
+2018-06-27 15:40:31.343 +02:00 [DBG] Start client validation
+2018-06-27 15:40:31.344 +02:00 [DBG] Start parsing Basic Authentication secret
+2018-06-27 15:40:31.344 +02:00 [DBG] Start parsing for secret in post body
+2018-06-27 15:40:31.344 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2018-06-27 15:40:31.344 +02:00 [DBG] Secret id found: process-engine
+2018-06-27 15:40:31.349 +02:00 [DBG] process-engine found in database: true
+2018-06-27 15:40:31.350 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2018-06-27 15:40:31.350 +02:00 [DBG] Client validation success
+2018-06-27 15:40:31.350 +02:00 [INF] {
+  "Name": "Client Authentication Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1010,
+  "ClientId": "process-engine",
+  "AuthenticationMethod": "SharedSecret",
+  "ActivityId": "0HLES69U4JGH2:00000001",
+  "TimeStamp": "2018-06-27T13:40:31Z",
+  "ProcessId": 25269,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-27 15:40:31.351 +02:00 [DBG] Start token request validation
+2018-06-27 15:40:31.351 +02:00 [DBG] Start client credentials token request validation
+2018-06-27 15:40:31.352 +02:00 [DBG] Found [] identity scopes in database
+2018-06-27 15:40:31.356 +02:00 [DBG] Found ["something"] API scopes in database
+2018-06-27 15:40:31.358 +02:00 [DBG] Found [] identity scopes in database
+2018-06-27 15:40:31.361 +02:00 [DBG] Found ["something"] API scopes in database
+2018-06-27 15:40:31.361 +02:00 [DBG] process-engine credentials token request validation success
+2018-06-27 15:40:31.361 +02:00 [INF] Token request validation success
+{
+  "ClientId": "process-engine",
+  "ClientName": "PE",
+  "GrantType": "client_credentials",
+  "Scopes": "something",
+  "Raw": {
+    "grant_type": "client_credentials",
+    "scope": "something",
+    "client_id": "process-engine",
+    "client_secret": "***REDACTED***"
+  }
+}
+2018-06-27 15:40:31.361 +02:00 [DBG] Getting claims for access token for client: process-engine
+2018-06-27 15:40:31.379 +02:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "process-engine",
+  "ClientName": "PE",
+  "Endpoint": "Token",
+  "Scopes": "something",
+  "GrantType": "client_credentials",
+  "Tokens": [
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****ZCzQ"
+    }
+  ],
+  "ActivityId": "0HLES69U4JGH2:00000001",
+  "TimeStamp": "2018-06-27T13:40:31Z",
+  "ProcessId": 25269,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-27 15:40:31.380 +02:00 [DBG] Token request success.
+2018-06-27 15:40:31.914 +02:00 [DBG] process-engine found in database: true
+2018-06-27 15:40:31.921 +02:00 [DBG] process-engine found in database: true
+2018-06-27 15:40:31.921 +02:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2018-06-27 15:40:31.926 +02:00 [DBG] Token validation success
+{
+  "ValidateLifetime": true,
+  "AccessTokenType": "Jwt",
+  "Claims": {
+    "nbf": 1530106831,
+    "exp": 1530110431,
+    "iss": "http://localhost:5000",
+    "aud": [
+      "http://localhost:5000/resources",
+      "something"
+    ],
+    "client_id": "process-engine",
+    "phone_number": "666666-23423-3423",
+    "scope": "something"
+  }
+}
+2018-06-27 15:40:31.963 +02:00 [DBG] process-engine found in database: true
+2018-06-27 15:40:31.966 +02:00 [DBG] process-engine found in database: true
+2018-06-27 15:40:31.966 +02:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2018-06-27 15:40:31.966 +02:00 [DBG] Token validation success
+{
+  "ValidateLifetime": true,
+  "AccessTokenType": "Jwt",
+  "Claims": {
+    "nbf": 1530106831,
+    "exp": 1530110431,
+    "iss": "http://localhost:5000",
+    "aud": [
+      "http://localhost:5000/resources",
+      "something"
+    ],
+    "client_id": "process-engine",
+    "phone_number": "666666-23423-3423",
+    "scope": "something"
+  }
+}
+2018-06-27 15:40:59.654 +02:00 [DBG] Request path /connect/token matched to endpoint type Token
+2018-06-27 15:40:59.655 +02:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2018-06-27 15:40:59.655 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2018-06-27 15:40:59.656 +02:00 [DBG] Start token request.
+2018-06-27 15:40:59.656 +02:00 [DBG] Start client validation
+2018-06-27 15:40:59.656 +02:00 [DBG] Start parsing Basic Authentication secret
+2018-06-27 15:40:59.656 +02:00 [DBG] Start parsing for secret in post body
+2018-06-27 15:40:59.656 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2018-06-27 15:40:59.656 +02:00 [DBG] Secret id found: process-engine
+2018-06-27 15:40:59.659 +02:00 [DBG] process-engine found in database: true
+2018-06-27 15:40:59.659 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2018-06-27 15:40:59.660 +02:00 [DBG] Client validation success
+2018-06-27 15:40:59.660 +02:00 [INF] {
+  "Name": "Client Authentication Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1010,
+  "ClientId": "process-engine",
+  "AuthenticationMethod": "SharedSecret",
+  "ActivityId": "0HLES69U4JGH5:00000001",
+  "TimeStamp": "2018-06-27T13:40:59Z",
+  "ProcessId": 25269,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-27 15:40:59.660 +02:00 [DBG] Start token request validation
+2018-06-27 15:40:59.660 +02:00 [DBG] Start client credentials token request validation
+2018-06-27 15:40:59.661 +02:00 [DBG] Found [] identity scopes in database
+2018-06-27 15:40:59.664 +02:00 [DBG] Found ["something"] API scopes in database
+2018-06-27 15:40:59.666 +02:00 [DBG] Found [] identity scopes in database
+2018-06-27 15:40:59.669 +02:00 [DBG] Found ["something"] API scopes in database
+2018-06-27 15:40:59.669 +02:00 [DBG] process-engine credentials token request validation success
+2018-06-27 15:40:59.669 +02:00 [INF] Token request validation success
+{
+  "ClientId": "process-engine",
+  "ClientName": "PE",
+  "GrantType": "client_credentials",
+  "Scopes": "something",
+  "Raw": {
+    "grant_type": "client_credentials",
+    "scope": "something",
+    "client_id": "process-engine",
+    "client_secret": "***REDACTED***"
+  }
+}
+2018-06-27 15:40:59.670 +02:00 [DBG] Getting claims for access token for client: process-engine
+2018-06-27 15:40:59.687 +02:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "process-engine",
+  "ClientName": "PE",
+  "Endpoint": "Token",
+  "Scopes": "something",
+  "GrantType": "client_credentials",
+  "Tokens": [
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****WU2w"
+    }
+  ],
+  "ActivityId": "0HLES69U4JGH5:00000001",
+  "TimeStamp": "2018-06-27T13:40:59Z",
+  "ProcessId": 25269,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-27 15:40:59.688 +02:00 [DBG] Token request success.
+2018-06-27 15:40:59.703 +02:00 [DBG] process-engine found in database: true
+2018-06-27 15:40:59.706 +02:00 [DBG] process-engine found in database: true
+2018-06-27 15:40:59.706 +02:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2018-06-27 15:40:59.706 +02:00 [DBG] Token validation success
+{
+  "ValidateLifetime": true,
+  "AccessTokenType": "Jwt",
+  "Claims": {
+    "nbf": 1530106859,
+    "exp": 1530110459,
+    "iss": "http://localhost:5000",
+    "aud": [
+      "http://localhost:5000/resources",
+      "something"
+    ],
+    "client_id": "process-engine",
+    "phone_number": "666666-23423-3423",
+    "scope": "something"
+  }
+}
+2018-06-27 15:40:59.721 +02:00 [DBG] process-engine found in database: true
+2018-06-27 15:40:59.724 +02:00 [DBG] process-engine found in database: true
+2018-06-27 15:40:59.724 +02:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2018-06-27 15:40:59.724 +02:00 [DBG] Token validation success
+{
+  "ValidateLifetime": true,
+  "AccessTokenType": "Jwt",
+  "Claims": {
+    "nbf": 1530106859,
+    "exp": 1530110459,
+    "iss": "http://localhost:5000",
+    "aud": [
+      "http://localhost:5000/resources",
+      "something"
+    ],
+    "client_id": "process-engine",
+    "phone_number": "666666-23423-3423",
+    "scope": "something"
+  }
+}
+2018-06-27 15:41:28.175 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-27 15:41:38.923 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-27 15:41:40.773 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-27 15:41:40.780 +02:00 [INF] Finding User by Subject fdcda532-ccca-44c0-b742-34ffe284509b
+2018-06-27 15:41:41.007 +02:00 [INF] Successfully Retrieved item by Subject fdcda532-ccca-44c0-b742-34ffe284509b
+2018-06-27 15:43:29.900 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-27 15:43:31.134 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-27 15:44:37.083 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-27 15:45:00.421 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-27 15:45:05.661 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-27 15:45:05.661 +02:00 [INF] Finding User by Subject fdcda532-ccca-44c0-b742-34ffe284509b
+2018-06-27 15:45:05.670 +02:00 [INF] Successfully Retrieved item by Subject fdcda532-ccca-44c0-b742-34ffe284509b
+2018-06-27 15:45:10.021 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-27 15:45:10.025 +02:00 [INF] Getting Apps
+2018-06-27 15:45:10.053 +02:00 [WRN] The LINQ expression 'where (([x].Expiration == null) OrElse (Convert(DateTime.UtcNow, Nullable`1) < [x].Expiration))' could not be translated and will be evaluated locally.
+2018-06-27 15:45:10.074 +02:00 [INF] Successfully Retrieved Apps for Subject fdcda532-ccca-44c0-b742-34ffe284509b
+2018-06-27 15:45:25.617 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-27 15:45:27.965 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-27 15:45:27.965 +02:00 [INF] Finding User by Subject fdcda532-ccca-44c0-b742-34ffe284509b
+2018-06-27 15:45:27.968 +02:00 [INF] Successfully Retrieved item by Subject fdcda532-ccca-44c0-b742-34ffe284509b
+2018-06-27 15:45:33.978 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-27 15:45:33.978 +02:00 [INF] Getting Apps
+2018-06-27 15:45:33.980 +02:00 [INF] Successfully Retrieved Apps for Subject fdcda532-ccca-44c0-b742-34ffe284509b
+2018-06-27 15:45:36.717 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-27 15:45:36.717 +02:00 [INF] Getting Apps
+2018-06-27 15:45:36.719 +02:00 [INF] Successfully Retrieved Apps for Subject fdcda532-ccca-44c0-b742-34ffe284509b
+2018-06-27 15:45:37.582 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-27 15:45:39.009 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-27 15:46:46.918 +02:00 [DBG] Request path /connect/token matched to endpoint type Token
+2018-06-27 15:46:46.919 +02:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2018-06-27 15:46:46.919 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2018-06-27 15:46:46.919 +02:00 [DBG] Start token request.
+2018-06-27 15:46:46.919 +02:00 [DBG] Start client validation
+2018-06-27 15:46:46.919 +02:00 [DBG] Start parsing Basic Authentication secret
+2018-06-27 15:46:46.919 +02:00 [DBG] Start parsing for secret in post body
+2018-06-27 15:46:46.920 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2018-06-27 15:46:46.920 +02:00 [DBG] Secret id found: process-engine
+2018-06-27 15:46:46.923 +02:00 [DBG] process-engine found in database: true
+2018-06-27 15:46:46.923 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2018-06-27 15:46:46.923 +02:00 [DBG] Client validation success
+2018-06-27 15:46:46.923 +02:00 [INF] {
+  "Name": "Client Authentication Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1010,
+  "ClientId": "process-engine",
+  "AuthenticationMethod": "SharedSecret",
+  "ActivityId": "0HLES69U4JGHE:00000001",
+  "TimeStamp": "2018-06-27T13:46:46Z",
+  "ProcessId": 25269,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-27 15:46:46.923 +02:00 [DBG] Start token request validation
+2018-06-27 15:46:46.924 +02:00 [DBG] Start client credentials token request validation
+2018-06-27 15:46:46.925 +02:00 [DBG] Found [] identity scopes in database
+2018-06-27 15:46:46.927 +02:00 [DBG] Found ["something"] API scopes in database
+2018-06-27 15:46:46.929 +02:00 [DBG] Found [] identity scopes in database
+2018-06-27 15:46:46.932 +02:00 [DBG] Found ["something"] API scopes in database
+2018-06-27 15:46:46.932 +02:00 [DBG] process-engine credentials token request validation success
+2018-06-27 15:46:46.933 +02:00 [INF] Token request validation success
+{
+  "ClientId": "process-engine",
+  "ClientName": "PE",
+  "GrantType": "client_credentials",
+  "Scopes": "something",
+  "Raw": {
+    "grant_type": "client_credentials",
+    "scope": "something",
+    "client_id": "process-engine",
+    "client_secret": "***REDACTED***"
+  }
+}
+2018-06-27 15:46:46.933 +02:00 [DBG] Getting claims for access token for client: process-engine
+2018-06-27 15:46:46.950 +02:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "process-engine",
+  "ClientName": "PE",
+  "Endpoint": "Token",
+  "Scopes": "something",
+  "GrantType": "client_credentials",
+  "Tokens": [
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****SoDg"
+    }
+  ],
+  "ActivityId": "0HLES69U4JGHE:00000001",
+  "TimeStamp": "2018-06-27T13:46:46Z",
+  "ProcessId": 25269,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-27 15:46:46.951 +02:00 [DBG] Token request success.
+2018-06-27 15:46:46.968 +02:00 [DBG] process-engine found in database: true
+2018-06-27 15:46:46.970 +02:00 [DBG] process-engine found in database: true
+2018-06-27 15:46:46.971 +02:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2018-06-27 15:46:46.971 +02:00 [DBG] Token validation success
+{
+  "ValidateLifetime": true,
+  "AccessTokenType": "Jwt",
+  "Claims": {
+    "nbf": 1530107206,
+    "exp": 1530110806,
+    "iss": "http://localhost:5000",
+    "aud": [
+      "http://localhost:5000/resources",
+      "something"
+    ],
+    "client_id": "process-engine",
+    "phone_number": "666666-23423-3423",
+    "scope": "something"
+  }
+}
+2018-06-27 15:46:46.986 +02:00 [DBG] process-engine found in database: true
+2018-06-27 15:46:46.989 +02:00 [DBG] process-engine found in database: true
+2018-06-27 15:46:46.989 +02:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2018-06-27 15:46:46.990 +02:00 [DBG] Token validation success
+{
+  "ValidateLifetime": true,
+  "AccessTokenType": "Jwt",
+  "Claims": {
+    "nbf": 1530107206,
+    "exp": 1530110806,
+    "iss": "http://localhost:5000",
+    "aud": [
+      "http://localhost:5000/resources",
+      "something"
+    ],
+    "client_id": "process-engine",
+    "phone_number": "666666-23423-3423",
+    "scope": "something"
+  }
+}
+2018-06-27 15:47:04.922 +02:00 [DBG] Request path /connect/token matched to endpoint type Token
+2018-06-27 15:47:04.922 +02:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2018-06-27 15:47:04.923 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2018-06-27 15:47:04.923 +02:00 [DBG] Start token request.
+2018-06-27 15:47:04.923 +02:00 [DBG] Start client validation
+2018-06-27 15:47:04.923 +02:00 [DBG] Start parsing Basic Authentication secret
+2018-06-27 15:47:04.923 +02:00 [DBG] Start parsing for secret in post body
+2018-06-27 15:47:04.923 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2018-06-27 15:47:04.923 +02:00 [DBG] Secret id found: process-engine
+2018-06-27 15:47:04.926 +02:00 [DBG] process-engine found in database: true
+2018-06-27 15:47:04.927 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2018-06-27 15:47:04.927 +02:00 [DBG] Client validation success
+2018-06-27 15:47:04.927 +02:00 [INF] {
+  "Name": "Client Authentication Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1010,
+  "ClientId": "process-engine",
+  "AuthenticationMethod": "SharedSecret",
+  "ActivityId": "0HLES69U4JGHH:00000001",
+  "TimeStamp": "2018-06-27T13:47:04Z",
+  "ProcessId": 25269,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-27 15:47:04.927 +02:00 [DBG] Start token request validation
+2018-06-27 15:47:04.927 +02:00 [DBG] Start client credentials token request validation
+2018-06-27 15:47:04.928 +02:00 [DBG] Found [] identity scopes in database
+2018-06-27 15:47:04.931 +02:00 [DBG] Found ["something"] API scopes in database
+2018-06-27 15:47:04.932 +02:00 [DBG] Found [] identity scopes in database
+2018-06-27 15:47:04.934 +02:00 [DBG] Found ["something"] API scopes in database
+2018-06-27 15:47:04.935 +02:00 [DBG] process-engine credentials token request validation success
+2018-06-27 15:47:04.935 +02:00 [INF] Token request validation success
+{
+  "ClientId": "process-engine",
+  "ClientName": "PE",
+  "GrantType": "client_credentials",
+  "Scopes": "something",
+  "Raw": {
+    "grant_type": "client_credentials",
+    "scope": "something",
+    "client_id": "process-engine",
+    "client_secret": "***REDACTED***"
+  }
+}
+2018-06-27 15:47:04.935 +02:00 [DBG] Getting claims for access token for client: process-engine
+2018-06-27 15:47:04.953 +02:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "process-engine",
+  "ClientName": "PE",
+  "Endpoint": "Token",
+  "Scopes": "something",
+  "GrantType": "client_credentials",
+  "Tokens": [
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****Hflg"
+    }
+  ],
+  "ActivityId": "0HLES69U4JGHH:00000001",
+  "TimeStamp": "2018-06-27T13:47:04Z",
+  "ProcessId": 25269,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-27 15:47:04.953 +02:00 [DBG] Token request success.
+2018-06-27 15:47:04.969 +02:00 [DBG] process-engine found in database: true
+2018-06-27 15:47:04.972 +02:00 [DBG] process-engine found in database: true
+2018-06-27 15:47:04.972 +02:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2018-06-27 15:47:04.972 +02:00 [DBG] Token validation success
+{
+  "ValidateLifetime": true,
+  "AccessTokenType": "Jwt",
+  "Claims": {
+    "nbf": 1530107224,
+    "exp": 1530110824,
+    "iss": "http://localhost:5000",
+    "aud": [
+      "http://localhost:5000/resources",
+      "something"
+    ],
+    "client_id": "process-engine",
+    "phone_number": "666666-23423-3423",
+    "scope": "something"
+  }
+}
+2018-06-27 15:47:04.987 +02:00 [DBG] process-engine found in database: true
+2018-06-27 15:47:04.990 +02:00 [DBG] process-engine found in database: true
+2018-06-27 15:47:04.990 +02:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2018-06-27 15:47:04.990 +02:00 [DBG] Token validation success
+{
+  "ValidateLifetime": true,
+  "AccessTokenType": "Jwt",
+  "Claims": {
+    "nbf": 1530107224,
+    "exp": 1530110824,
+    "iss": "http://localhost:5000",
+    "aud": [
+      "http://localhost:5000/resources",
+      "something"
+    ],
+    "client_id": "process-engine",
+    "phone_number": "666666-23423-3423",
+    "scope": "something"
+  }
+}
+2018-06-27 15:47:40.113 +02:00 [DBG] Request path /connect/token matched to endpoint type Token
+2018-06-27 15:47:40.113 +02:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2018-06-27 15:47:40.113 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2018-06-27 15:47:40.113 +02:00 [DBG] Start token request.
+2018-06-27 15:47:40.113 +02:00 [DBG] Start client validation
+2018-06-27 15:47:40.114 +02:00 [DBG] Start parsing Basic Authentication secret
+2018-06-27 15:47:40.114 +02:00 [DBG] Start parsing for secret in post body
+2018-06-27 15:47:40.114 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2018-06-27 15:47:40.114 +02:00 [DBG] Secret id found: process-engine
+2018-06-27 15:47:40.117 +02:00 [DBG] process-engine found in database: true
+2018-06-27 15:47:40.117 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2018-06-27 15:47:40.117 +02:00 [DBG] Client validation success
+2018-06-27 15:47:40.117 +02:00 [INF] {
+  "Name": "Client Authentication Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1010,
+  "ClientId": "process-engine",
+  "AuthenticationMethod": "SharedSecret",
+  "ActivityId": "0HLES69U4JGHK:00000001",
+  "TimeStamp": "2018-06-27T13:47:40Z",
+  "ProcessId": 25269,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-27 15:47:40.118 +02:00 [DBG] Start token request validation
+2018-06-27 15:47:40.118 +02:00 [DBG] Start client credentials token request validation
+2018-06-27 15:47:40.119 +02:00 [DBG] Found [] identity scopes in database
+2018-06-27 15:47:40.121 +02:00 [DBG] Found ["something"] API scopes in database
+2018-06-27 15:47:40.123 +02:00 [DBG] Found [] identity scopes in database
+2018-06-27 15:47:40.126 +02:00 [DBG] Found ["something"] API scopes in database
+2018-06-27 15:47:40.126 +02:00 [DBG] process-engine credentials token request validation success
+2018-06-27 15:47:40.126 +02:00 [INF] Token request validation success
+{
+  "ClientId": "process-engine",
+  "ClientName": "PE",
+  "GrantType": "client_credentials",
+  "Scopes": "something",
+  "Raw": {
+    "grant_type": "client_credentials",
+    "scope": "something",
+    "client_id": "process-engine",
+    "client_secret": "***REDACTED***"
+  }
+}
+2018-06-27 15:47:40.127 +02:00 [DBG] Getting claims for access token for client: process-engine
+2018-06-27 15:47:40.144 +02:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "process-engine",
+  "ClientName": "PE",
+  "Endpoint": "Token",
+  "Scopes": "something",
+  "GrantType": "client_credentials",
+  "Tokens": [
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****OI-g"
+    }
+  ],
+  "ActivityId": "0HLES69U4JGHK:00000001",
+  "TimeStamp": "2018-06-27T13:47:40Z",
+  "ProcessId": 25269,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-27 15:47:40.145 +02:00 [DBG] Token request success.
+2018-06-27 15:47:40.160 +02:00 [DBG] process-engine found in database: true
+2018-06-27 15:47:40.163 +02:00 [DBG] process-engine found in database: true
+2018-06-27 15:47:40.164 +02:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2018-06-27 15:47:40.164 +02:00 [DBG] Token validation success
+{
+  "ValidateLifetime": true,
+  "AccessTokenType": "Jwt",
+  "Claims": {
+    "nbf": 1530107260,
+    "exp": 1530110860,
+    "iss": "http://localhost:5000",
+    "aud": [
+      "http://localhost:5000/resources",
+      "something"
+    ],
+    "client_id": "process-engine",
+    "phone_number": "666666-23423-3423",
+    "scope": "something"
+  }
+}
+2018-06-27 15:47:40.178 +02:00 [DBG] process-engine found in database: true
+2018-06-27 15:47:40.181 +02:00 [DBG] process-engine found in database: true
+2018-06-27 15:47:40.181 +02:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2018-06-27 15:47:40.182 +02:00 [DBG] Token validation success
+{
+  "ValidateLifetime": true,
+  "AccessTokenType": "Jwt",
+  "Claims": {
+    "nbf": 1530107260,
+    "exp": 1530110860,
+    "iss": "http://localhost:5000",
+    "aud": [
+      "http://localhost:5000/resources",
+      "something"
+    ],
+    "client_id": "process-engine",
+    "phone_number": "666666-23423-3423",
+    "scope": "something"
+  }
+}
+2018-06-27 15:48:21.779 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-27 15:48:23.924 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-27 15:48:23.924 +02:00 [INF] Finding User by Subject fdcda532-ccca-44c0-b742-34ffe284509b
+2018-06-27 15:48:23.927 +02:00 [INF] Successfully Retrieved item by Subject fdcda532-ccca-44c0-b742-34ffe284509b
+2018-06-27 15:48:29.359 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-27 15:48:30.799 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 10:18:15.111 +02:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-06-28 10:18:15.188 +02:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-06-28 10:18:15.189 +02:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-06-28 10:18:15.189 +02:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-06-28 10:18:15.189 +02:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-06-28 10:18:16.485 +02:00 [WRN] The 'bool' property 'UserEditable' on entity type 'IdentityExpressClaimType' is configured with a database-generated default. This default will always be used when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used when the property value is 'null'.
+2018-06-28 10:18:25.667 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 10:18:29.080 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 10:18:39.774 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 10:18:44.570 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 10:18:44.578 +02:00 [INF] Finding User by Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 10:18:44.959 +02:00 [INF] Successfully Retrieved item by Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 10:18:50.780 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 10:18:51.890 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 10:18:51.890 +02:00 [INF] Finding User by Subject ccf9b583-efc1-4841-b777-5a7813597a1f
+2018-06-28 10:18:51.894 +02:00 [INF] Successfully Retrieved item by Subject ccf9b583-efc1-4841-b777-5a7813597a1f
+2018-06-28 10:25:05.864 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 10:25:48.109 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 10:25:49.685 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 10:25:49.686 +02:00 [INF] Finding User by Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 10:25:49.693 +02:00 [INF] Successfully Retrieved item by Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 10:25:51.441 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 10:25:52.341 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 10:25:52.341 +02:00 [INF] Finding User by Subject ccf9b583-efc1-4841-b777-5a7813597a1f
+2018-06-28 10:25:52.345 +02:00 [INF] Successfully Retrieved item by Subject ccf9b583-efc1-4841-b777-5a7813597a1f
+2018-06-28 10:26:13.298 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 10:26:13.308 +02:00 [INF] Finding User by Subject ccf9b583-efc1-4841-b777-5a7813597a1f
+2018-06-28 10:26:13.311 +02:00 [INF] Deleting Claim
+2018-06-28 10:26:13.561 +02:00 [INF] Successfully Deleted Claim
+2018-06-28 10:26:16.107 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 10:26:17.502 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 10:26:17.502 +02:00 [INF] Finding User by Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 10:26:17.505 +02:00 [INF] Successfully Retrieved item by Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 10:26:32.288 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 10:26:32.290 +02:00 [INF] Finding User by Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 10:26:32.293 +02:00 [INF] Creating Claim
+2018-06-28 10:26:32.321 +02:00 [WRN] The LINQ expression 'where {from Claim y in __claims_0 where ([y].Type == [x].Name) select [y] => Any()}' could not be translated and will be evaluated locally.
+2018-06-28 10:26:32.322 +02:00 [WRN] The LINQ expression 'where ([y].Type == [x].Name)' could not be translated and will be evaluated locally.
+2018-06-28 10:26:32.327 +02:00 [WRN] The LINQ expression 'Any()' could not be translated and will be evaluated locally.
+2018-06-28 10:26:32.414 +02:00 [INF] Successfully Created Claim
+2018-06-28 10:39:43.003 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 10:39:44.519 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 10:51:13.503 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 10:51:16.451 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 10:51:16.451 +02:00 [INF] Finding User by Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 10:51:16.462 +02:00 [INF] Successfully Retrieved item by Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 10:51:53.419 +02:00 [DBG] Request path /connect/token matched to endpoint type Token
+2018-06-28 10:51:53.440 +02:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2018-06-28 10:51:53.441 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2018-06-28 10:51:53.449 +02:00 [DBG] Start token request.
+2018-06-28 10:51:53.456 +02:00 [DBG] Start client validation
+2018-06-28 10:51:53.464 +02:00 [DBG] Start parsing Basic Authentication secret
+2018-06-28 10:51:53.468 +02:00 [DBG] Start parsing for secret in post body
+2018-06-28 10:51:53.495 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2018-06-28 10:51:53.496 +02:00 [DBG] Secret id found: iam_integration_test_client
+2018-06-28 10:51:53.832 +02:00 [DBG] iam_integration_test_client found in database: true
+2018-06-28 10:51:53.848 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2018-06-28 10:51:53.848 +02:00 [DBG] Client validation success
+2018-06-28 10:51:53.896 +02:00 [INF] {
+  "Name": "Client Authentication Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1010,
+  "ClientId": "iam_integration_test_client",
+  "AuthenticationMethod": "SharedSecret",
+  "ActivityId": "0HLESPUS4K3AS:00000001",
+  "TimeStamp": "2018-06-28T08:51:53Z",
+  "ProcessId": 28815,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-28 10:51:53.911 +02:00 [DBG] Start token request validation
+2018-06-28 10:51:53.926 +02:00 [DBG] Start resource owner password token request validation
+2018-06-28 10:51:53.928 +02:00 [ERR] iam_integration_test_client not authorized for resource owner flow, check the AllowedGrantTypes of client
+2018-06-28 10:51:53.946 +02:00 [ERR] {
+  "ClientId": "iam_integration_test_client",
+  "ClientName": "Iam Integrationstest",
+  "GrantType": "password",
+  "Raw": {
+    "client_id": "iam_integration_test_client",
+    "grant_type": "password",
+    "client_secret": "***REDACTED***",
+    "username": "alice",
+    "password": "***REDACTED***",
+    "scope": "test_resource"
+  }
+}
+2018-06-28 10:51:53.953 +02:00 [INF] {
+  "Name": "Token Issued Failure",
+  "Category": "Token",
+  "EventType": "Failure",
+  "Id": 2001,
+  "ClientId": "iam_integration_test_client",
+  "ClientName": "Iam Integrationstest",
+  "Endpoint": "Token",
+  "GrantType": "password",
+  "Error": "unauthorized_client",
+  "ActivityId": "0HLESPUS4K3AS:00000001",
+  "TimeStamp": "2018-06-28T08:51:53Z",
+  "ProcessId": 28815,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-28 10:52:26.133 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 10:52:27.732 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 10:56:04.815 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 10:56:05.949 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 10:57:33.735 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 10:57:41.782 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 10:58:53.017 +02:00 [DBG] Request path /connect/token matched to endpoint type Token
+2018-06-28 10:58:53.018 +02:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2018-06-28 10:58:53.018 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2018-06-28 10:58:53.019 +02:00 [DBG] Start token request.
+2018-06-28 10:58:53.019 +02:00 [DBG] Start client validation
+2018-06-28 10:58:53.019 +02:00 [DBG] Start parsing Basic Authentication secret
+2018-06-28 10:58:53.019 +02:00 [DBG] Start parsing for secret in post body
+2018-06-28 10:58:53.019 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2018-06-28 10:58:53.019 +02:00 [DBG] Secret id found: iam_integration_test_client
+2018-06-28 10:58:53.027 +02:00 [DBG] iam_integration_test_client found in database: true
+2018-06-28 10:58:53.028 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2018-06-28 10:58:53.028 +02:00 [DBG] Client validation success
+2018-06-28 10:58:53.028 +02:00 [INF] {
+  "Name": "Client Authentication Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1010,
+  "ClientId": "iam_integration_test_client",
+  "AuthenticationMethod": "SharedSecret",
+  "ActivityId": "0HLESPUS4K3AU:00000001",
+  "TimeStamp": "2018-06-28T08:58:53Z",
+  "ProcessId": 28815,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-28 10:58:53.028 +02:00 [DBG] Start token request validation
+2018-06-28 10:58:53.028 +02:00 [DBG] Start resource owner password token request validation
+2018-06-28 10:58:53.028 +02:00 [ERR] iam_integration_test_client not authorized for resource owner flow, check the AllowedGrantTypes of client
+2018-06-28 10:58:53.029 +02:00 [ERR] {
+  "ClientId": "iam_integration_test_client",
+  "ClientName": "Iam Integrationstest",
+  "GrantType": "password",
+  "Raw": {
+    "client_id": "iam_integration_test_client",
+    "grant_type": "password",
+    "client_secret": "***REDACTED***",
+    "username": "alice",
+    "password": "***REDACTED***",
+    "scope": "test_resource"
+  }
+}
+2018-06-28 10:58:53.029 +02:00 [INF] {
+  "Name": "Token Issued Failure",
+  "Category": "Token",
+  "EventType": "Failure",
+  "Id": 2001,
+  "ClientId": "iam_integration_test_client",
+  "ClientName": "Iam Integrationstest",
+  "Endpoint": "Token",
+  "GrantType": "password",
+  "Error": "unauthorized_client",
+  "ActivityId": "0HLESPUS4K3AU:00000001",
+  "TimeStamp": "2018-06-28T08:58:53Z",
+  "ProcessId": 28815,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-28 10:59:38.896 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 10:59:54.221 +02:00 [DBG] Request path /connect/token matched to endpoint type Token
+2018-06-28 10:59:54.221 +02:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2018-06-28 10:59:54.221 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2018-06-28 10:59:54.222 +02:00 [DBG] Start token request.
+2018-06-28 10:59:54.222 +02:00 [DBG] Start client validation
+2018-06-28 10:59:54.222 +02:00 [DBG] Start parsing Basic Authentication secret
+2018-06-28 10:59:54.222 +02:00 [DBG] Start parsing for secret in post body
+2018-06-28 10:59:54.222 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2018-06-28 10:59:54.222 +02:00 [DBG] Secret id found: iam_integration_test_client
+2018-06-28 10:59:54.226 +02:00 [DBG] iam_integration_test_client found in database: true
+2018-06-28 10:59:54.226 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2018-06-28 10:59:54.226 +02:00 [DBG] Client validation success
+2018-06-28 10:59:54.226 +02:00 [INF] {
+  "Name": "Client Authentication Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1010,
+  "ClientId": "iam_integration_test_client",
+  "AuthenticationMethod": "SharedSecret",
+  "ActivityId": "0HLESPUS4K3AV:00000001",
+  "TimeStamp": "2018-06-28T08:59:54Z",
+  "ProcessId": 28815,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-28 10:59:54.227 +02:00 [DBG] Start token request validation
+2018-06-28 10:59:54.227 +02:00 [DBG] Start resource owner password token request validation
+2018-06-28 10:59:54.227 +02:00 [ERR] iam_integration_test_client not authorized for resource owner flow, check the AllowedGrantTypes of client
+2018-06-28 10:59:54.227 +02:00 [ERR] {
+  "ClientId": "iam_integration_test_client",
+  "ClientName": "Iam Integrationstest",
+  "GrantType": "password",
+  "Raw": {
+    "grant_type": "password",
+    "client_id": "iam_integration_test_client",
+    "client_secret": "***REDACTED***",
+    "scope": "test_resource",
+    "username": "alice",
+    "password": "***REDACTED***"
+  }
+}
+2018-06-28 10:59:54.227 +02:00 [INF] {
+  "Name": "Token Issued Failure",
+  "Category": "Token",
+  "EventType": "Failure",
+  "Id": 2001,
+  "ClientId": "iam_integration_test_client",
+  "ClientName": "Iam Integrationstest",
+  "Endpoint": "Token",
+  "GrantType": "password",
+  "Error": "unauthorized_client",
+  "ActivityId": "0HLESPUS4K3AV:00000001",
+  "TimeStamp": "2018-06-28T08:59:54Z",
+  "ProcessId": 28815,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-28 11:00:29.493 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:00:41.936 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:00:41.937 +02:00 [INF] Finding User by Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 11:00:41.944 +02:00 [INF] Successfully Retrieved item by Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 11:00:48.937 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:00:48.940 +02:00 [INF] Getting Apps
+2018-06-28 11:00:48.964 +02:00 [WRN] The LINQ expression 'where (([x].Expiration == null) OrElse (Convert(DateTime.UtcNow, Nullable`1) < [x].Expiration))' could not be translated and will be evaluated locally.
+2018-06-28 11:00:48.978 +02:00 [INF] Successfully Retrieved Apps for Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 11:00:55.698 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:00:58.997 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:01:00.391 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:01:09.923 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:01:12.801 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:01:23.608 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:01:24.819 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:01:41.407 +02:00 [DBG] Request path /connect/token matched to endpoint type Token
+2018-06-28 11:01:41.408 +02:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2018-06-28 11:01:41.408 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2018-06-28 11:01:41.408 +02:00 [DBG] Start token request.
+2018-06-28 11:01:41.408 +02:00 [DBG] Start client validation
+2018-06-28 11:01:41.408 +02:00 [DBG] Start parsing Basic Authentication secret
+2018-06-28 11:01:41.408 +02:00 [DBG] Start parsing for secret in post body
+2018-06-28 11:01:41.416 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2018-06-28 11:01:41.416 +02:00 [DBG] Secret id found: iam_integration_test_client
+2018-06-28 11:01:41.420 +02:00 [DBG] iam_integration_test_client found in database: true
+2018-06-28 11:01:41.421 +02:00 [DBG] No matching hashed secret found.
+2018-06-28 11:01:41.421 +02:00 [DBG] Secret validators could not validate secret
+2018-06-28 11:01:41.425 +02:00 [INF] {
+  "Name": "Client Authentication Failure",
+  "Category": "Authentication",
+  "EventType": "Failure",
+  "Id": 1011,
+  "ClientId": "iam_integration_test_client",
+  "Message": "Invalid client secret",
+  "ActivityId": "0HLESPUS4K3B1:00000001",
+  "TimeStamp": "2018-06-28T09:01:41Z",
+  "ProcessId": 28815,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-28 11:01:41.426 +02:00 [ERR] Client secret validation failed for client: iam_integration_test_client.
+2018-06-28 11:01:54.482 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:02:02.423 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:02:44.164 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:02:46.645 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:03:00.573 +02:00 [DBG] Request path /connect/token matched to endpoint type Token
+2018-06-28 11:03:00.573 +02:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2018-06-28 11:03:00.574 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2018-06-28 11:03:00.574 +02:00 [DBG] Start token request.
+2018-06-28 11:03:00.574 +02:00 [DBG] Start client validation
+2018-06-28 11:03:00.574 +02:00 [DBG] Start parsing Basic Authentication secret
+2018-06-28 11:03:00.574 +02:00 [DBG] Start parsing for secret in post body
+2018-06-28 11:03:00.574 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2018-06-28 11:03:00.574 +02:00 [DBG] Secret id found: iam_integration_test_client
+2018-06-28 11:03:00.577 +02:00 [DBG] iam_integration_test_client found in database: true
+2018-06-28 11:03:00.577 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2018-06-28 11:03:00.578 +02:00 [DBG] Client validation success
+2018-06-28 11:03:00.578 +02:00 [INF] {
+  "Name": "Client Authentication Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1010,
+  "ClientId": "iam_integration_test_client",
+  "AuthenticationMethod": "SharedSecret",
+  "ActivityId": "0HLESPUS4K3B2:00000001",
+  "TimeStamp": "2018-06-28T09:03:00Z",
+  "ProcessId": 28815,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-28 11:03:00.578 +02:00 [DBG] Start token request validation
+2018-06-28 11:03:00.578 +02:00 [DBG] Start resource owner password token request validation
+2018-06-28 11:03:00.578 +02:00 [ERR] iam_integration_test_client not authorized for resource owner flow, check the AllowedGrantTypes of client
+2018-06-28 11:03:00.578 +02:00 [ERR] {
+  "ClientId": "iam_integration_test_client",
+  "ClientName": "Iam Integrationstest",
+  "GrantType": "password",
+  "Raw": {
+    "grant_type": "password",
+    "client_id": "iam_integration_test_client",
+    "client_secret": "***REDACTED***",
+    "scope": "test_resource",
+    "username": "alice",
+    "password": "***REDACTED***"
+  }
+}
+2018-06-28 11:03:00.579 +02:00 [INF] {
+  "Name": "Token Issued Failure",
+  "Category": "Token",
+  "EventType": "Failure",
+  "Id": 2001,
+  "ClientId": "iam_integration_test_client",
+  "ClientName": "Iam Integrationstest",
+  "Endpoint": "Token",
+  "GrantType": "password",
+  "Error": "unauthorized_client",
+  "ActivityId": "0HLESPUS4K3B2:00000001",
+  "TimeStamp": "2018-06-28T09:03:00Z",
+  "ProcessId": 28815,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-28 11:03:42.618 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:03:48.866 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:03:52.440 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:03:53.219 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:04:19.910 +02:00 [DBG] Request path /connect/token matched to endpoint type Token
+2018-06-28 11:04:19.910 +02:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2018-06-28 11:04:19.910 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2018-06-28 11:04:19.911 +02:00 [DBG] Start token request.
+2018-06-28 11:04:19.911 +02:00 [DBG] Start client validation
+2018-06-28 11:04:19.911 +02:00 [DBG] Start parsing Basic Authentication secret
+2018-06-28 11:04:19.911 +02:00 [DBG] Start parsing for secret in post body
+2018-06-28 11:04:19.911 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2018-06-28 11:04:19.912 +02:00 [DBG] Secret id found: iam_integration_test_client
+2018-06-28 11:04:19.915 +02:00 [DBG] iam_integration_test_client found in database: true
+2018-06-28 11:04:19.915 +02:00 [DBG] No matching hashed secret found.
+2018-06-28 11:04:19.916 +02:00 [DBG] Secret validators could not validate secret
+2018-06-28 11:04:19.916 +02:00 [INF] {
+  "Name": "Client Authentication Failure",
+  "Category": "Authentication",
+  "EventType": "Failure",
+  "Id": 1011,
+  "ClientId": "iam_integration_test_client",
+  "Message": "Invalid client secret",
+  "ActivityId": "0HLESPUS4K3B3:00000001",
+  "TimeStamp": "2018-06-28T09:04:19Z",
+  "ProcessId": 28815,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-28 11:04:19.916 +02:00 [ERR] Client secret validation failed for client: iam_integration_test_client.
+2018-06-28 11:04:34.583 +02:00 [DBG] Request path /connect/token matched to endpoint type Token
+2018-06-28 11:04:34.583 +02:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2018-06-28 11:04:34.584 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2018-06-28 11:04:34.584 +02:00 [DBG] Start token request.
+2018-06-28 11:04:34.584 +02:00 [DBG] Start client validation
+2018-06-28 11:04:34.584 +02:00 [DBG] Start parsing Basic Authentication secret
+2018-06-28 11:04:34.584 +02:00 [DBG] Start parsing for secret in post body
+2018-06-28 11:04:34.585 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2018-06-28 11:04:34.585 +02:00 [DBG] Secret id found: iam_integration_test_client
+2018-06-28 11:04:34.587 +02:00 [DBG] iam_integration_test_client found in database: true
+2018-06-28 11:04:34.588 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2018-06-28 11:04:34.588 +02:00 [DBG] Client validation success
+2018-06-28 11:04:34.588 +02:00 [INF] {
+  "Name": "Client Authentication Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1010,
+  "ClientId": "iam_integration_test_client",
+  "AuthenticationMethod": "SharedSecret",
+  "ActivityId": "0HLESPUS4K3B4:00000001",
+  "TimeStamp": "2018-06-28T09:04:34Z",
+  "ProcessId": 28815,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-28 11:04:34.588 +02:00 [DBG] Start token request validation
+2018-06-28 11:04:34.588 +02:00 [DBG] Start resource owner password token request validation
+2018-06-28 11:04:34.588 +02:00 [ERR] iam_integration_test_client not authorized for resource owner flow, check the AllowedGrantTypes of client
+2018-06-28 11:04:34.589 +02:00 [ERR] {
+  "ClientId": "iam_integration_test_client",
+  "ClientName": "Iam Integrationstest",
+  "GrantType": "password",
+  "Raw": {
+    "grant_type": "password",
+    "client_id": "iam_integration_test_client",
+    "client_secret": "***REDACTED***",
+    "scope": "test_resource",
+    "username": "alice",
+    "password": "***REDACTED***"
+  }
+}
+2018-06-28 11:04:34.589 +02:00 [INF] {
+  "Name": "Token Issued Failure",
+  "Category": "Token",
+  "EventType": "Failure",
+  "Id": 2001,
+  "ClientId": "iam_integration_test_client",
+  "ClientName": "Iam Integrationstest",
+  "Endpoint": "Token",
+  "GrantType": "password",
+  "Error": "unauthorized_client",
+  "ActivityId": "0HLESPUS4K3B4:00000001",
+  "TimeStamp": "2018-06-28T09:04:34Z",
+  "ProcessId": 28815,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-28 11:05:04.983 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:05:47.627 +02:00 [DBG] Request path /connect/token matched to endpoint type Token
+2018-06-28 11:05:47.628 +02:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2018-06-28 11:05:47.628 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2018-06-28 11:05:47.628 +02:00 [DBG] Start token request.
+2018-06-28 11:05:47.628 +02:00 [DBG] Start client validation
+2018-06-28 11:05:47.629 +02:00 [DBG] Start parsing Basic Authentication secret
+2018-06-28 11:05:47.629 +02:00 [DBG] Start parsing for secret in post body
+2018-06-28 11:05:47.629 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2018-06-28 11:05:47.629 +02:00 [DBG] Secret id found: iam_integration_test_client
+2018-06-28 11:05:47.633 +02:00 [DBG] iam_integration_test_client found in database: true
+2018-06-28 11:05:47.633 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2018-06-28 11:05:47.633 +02:00 [DBG] Client validation success
+2018-06-28 11:05:47.633 +02:00 [INF] {
+  "Name": "Client Authentication Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1010,
+  "ClientId": "iam_integration_test_client",
+  "AuthenticationMethod": "SharedSecret",
+  "ActivityId": "0HLESPUS4K3B5:00000001",
+  "TimeStamp": "2018-06-28T09:05:47Z",
+  "ProcessId": 28815,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-28 11:05:47.633 +02:00 [DBG] Start token request validation
+2018-06-28 11:05:47.633 +02:00 [DBG] Start resource owner password token request validation
+2018-06-28 11:05:47.698 +02:00 [DBG] Found [] identity scopes in database
+2018-06-28 11:05:47.822 +02:00 [DBG] Found ["test_resource"] API scopes in database
+2018-06-28 11:05:47.843 +02:00 [DBG] Found [] identity scopes in database
+2018-06-28 11:05:47.846 +02:00 [DBG] Found ["test_resource"] API scopes in database
+2018-06-28 11:05:47.971 +02:00 [WRN] Invalid password for user 98a4436f-998d-4afa-93ab-e53a9a10553a.
+2018-06-28 11:05:47.972 +02:00 [WRN] User 98a4436f-998d-4afa-93ab-e53a9a10553a failed to provide the correct password.
+2018-06-28 11:05:47.994 +02:00 [INF] Authentication failed for username: alice, reason: invalid credentials
+2018-06-28 11:05:48.000 +02:00 [INF] {
+  "Name": "User Login Failure",
+  "Category": "Authentication",
+  "EventType": "Failure",
+  "Id": 1001,
+  "Username": "alice",
+  "Endpoint": "Token",
+  "Message": "invalid credentials",
+  "ActivityId": "0HLESPUS4K3B5:00000001",
+  "TimeStamp": "2018-06-28T09:05:47Z",
+  "ProcessId": 28815,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-28 11:05:48.001 +02:00 [INF] User authentication failed: invalid_username_or_password
+2018-06-28 11:05:48.001 +02:00 [INF] {
+  "ClientId": "iam_integration_test_client",
+  "ClientName": "Iam Integrationstest",
+  "GrantType": "password",
+  "Scopes": "test_resource",
+  "UserName": "alice",
+  "Raw": {
+    "grant_type": "password",
+    "client_id": "iam_integration_test_client",
+    "client_secret": "***REDACTED***",
+    "scope": "test_resource",
+    "username": "alice",
+    "password": "***REDACTED***"
+  }
+}
+2018-06-28 11:05:48.002 +02:00 [INF] {
+  "Name": "User Login Failure",
+  "Category": "Authentication",
+  "EventType": "Failure",
+  "Id": 1001,
+  "Username": "alice",
+  "Endpoint": "UI",
+  "Message": "invalid_username_or_password",
+  "ActivityId": "0HLESPUS4K3B5:00000001",
+  "TimeStamp": "2018-06-28T09:05:48Z",
+  "ProcessId": 28815,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-28 11:05:48.002 +02:00 [INF] {
+  "Name": "Token Issued Failure",
+  "Category": "Token",
+  "EventType": "Failure",
+  "Id": 2001,
+  "ClientId": "iam_integration_test_client",
+  "ClientName": "Iam Integrationstest",
+  "Endpoint": "Token",
+  "Scopes": "test_resource",
+  "GrantType": "password",
+  "Error": "invalid_grant",
+  "ErrorDescription": "invalid_username_or_password",
+  "ActivityId": "0HLESPUS4K3B5:00000001",
+  "TimeStamp": "2018-06-28T09:05:48Z",
+  "ProcessId": 28815,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-28 11:06:26.443 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:06:27.570 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:06:27.570 +02:00 [INF] Finding User by Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 11:06:27.573 +02:00 [INF] Successfully Retrieved item by Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 11:06:36.412 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:06:36.412 +02:00 [INF] Getting Apps
+2018-06-28 11:06:36.414 +02:00 [INF] Successfully Retrieved Apps for Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 11:07:17.813 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:07:20.891 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:07:20.891 +02:00 [INF] Finding User by Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 11:07:20.895 +02:00 [INF] Successfully Retrieved item by Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 11:07:20.921 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:07:20.922 +02:00 [INF] Finding User by Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 11:07:20.924 +02:00 [INF] Successfully Retrieved item by Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 11:07:25.443 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:07:25.443 +02:00 [INF] Getting Apps
+2018-06-28 11:07:25.445 +02:00 [INF] Successfully Retrieved Apps for Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 11:07:42.578 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:07:42.584 +02:00 [INF] Deleting User Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 11:07:42.600 +02:00 [INF] Successfully Deleted Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 11:07:42.690 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:08:35.590 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:08:38.175 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:12:21.762 +02:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-06-28 11:12:21.840 +02:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-06-28 11:12:21.840 +02:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-06-28 11:12:21.840 +02:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-06-28 11:12:21.840 +02:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-06-28 11:12:23.032 +02:00 [WRN] The 'bool' property 'UserEditable' on entity type 'IdentityExpressClaimType' is configured with a database-generated default. This default will always be used when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used when the property value is 'null'.
+2018-06-28 11:12:38.798 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:14:43.695 +02:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-06-28 11:14:43.771 +02:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-06-28 11:14:43.771 +02:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-06-28 11:14:43.771 +02:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-06-28 11:14:43.771 +02:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-06-28 11:14:45.013 +02:00 [WRN] The 'bool' property 'UserEditable' on entity type 'IdentityExpressClaimType' is configured with a database-generated default. This default will always be used when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used when the property value is 'null'.
+2018-06-28 11:14:56.675 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:17:29.775 +02:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-06-28 11:17:29.870 +02:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-06-28 11:17:29.870 +02:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-06-28 11:17:29.871 +02:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-06-28 11:17:29.871 +02:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-06-28 11:17:31.154 +02:00 [WRN] The 'bool' property 'UserEditable' on entity type 'IdentityExpressClaimType' is configured with a database-generated default. This default will always be used when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used when the property value is 'null'.
+2018-06-28 11:17:42.943 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:19:59.207 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:20:06.263 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:20:52.600 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:20:54.898 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:21:10.623 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:24:31.788 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:24:31.918 +02:00 [INF] Creating User
+2018-06-28 11:24:32.153 +02:00 [ERR] Creating User failed, bad request
+2018-06-28 11:24:37.876 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:24:47.002 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:24:51.172 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:24:53.989 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:24:53.991 +02:00 [INF] Finding User by Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 11:24:54.053 +02:00 [INF] Successfully Retrieved item by Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 11:24:57.597 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:24:57.623 +02:00 [INF] Finding User by Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 11:24:57.626 +02:00 [INF] Updating User by Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 11:24:57.707 +02:00 [WRN] The LINQ expression 'where {from Claim y in __claims_0 where ([y].Type == [x].Name) select [y] => Any()}' could not be translated and will be evaluated locally.
+2018-06-28 11:24:57.708 +02:00 [WRN] The LINQ expression 'where ([y].Type == [x].Name)' could not be translated and will be evaluated locally.
+2018-06-28 11:24:57.711 +02:00 [WRN] The LINQ expression 'Any()' could not be translated and will be evaluated locally.
+2018-06-28 11:24:57.733 +02:00 [WRN] The LINQ expression 'where {from Role y in __8__locals1_roles_0 where (__normalizer_1.Normalize([y].Name) == [x].NormalizedName) select [y] => Any()}' could not be translated and will be evaluated locally.
+2018-06-28 11:24:57.733 +02:00 [WRN] The LINQ expression 'where (__normalizer_1.Normalize([y].Name) == [x].NormalizedName)' could not be translated and will be evaluated locally.
+2018-06-28 11:24:57.734 +02:00 [WRN] The LINQ expression 'Any()' could not be translated and will be evaluated locally.
+2018-06-28 11:24:57.753 +02:00 [WRN] The LINQ expression 'where {from Claim y in __8__locals1_claims_0 where ([y].Type == [x].Name) select [y] => Any()}' could not be translated and will be evaluated locally.
+2018-06-28 11:24:57.753 +02:00 [WRN] The LINQ expression 'where ([y].Type == [x].Name)' could not be translated and will be evaluated locally.
+2018-06-28 11:24:57.754 +02:00 [WRN] The LINQ expression 'Any()' could not be translated and will be evaluated locally.
+2018-06-28 11:24:58.129 +02:00 [INF] Successfully Updated User by Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 11:25:01.060 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:25:01.066 +02:00 [INF] Deleting User Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 11:25:01.082 +02:00 [INF] Successfully Deleted Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 11:25:01.124 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:25:02.321 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:25:03.465 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:25:03.465 +02:00 [INF] Finding User by Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 11:25:03.468 +02:00 [INF] Successfully Retrieved item by Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 11:25:10.074 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:25:10.076 +02:00 [INF] Getting Apps
+2018-06-28 11:25:10.096 +02:00 [WRN] The LINQ expression 'where (([x].Expiration == null) OrElse (Convert(DateTime.UtcNow, Nullable`1) < [x].Expiration))' could not be translated and will be evaluated locally.
+2018-06-28 11:25:10.116 +02:00 [INF] Successfully Retrieved Apps for Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 11:25:11.945 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:25:13.923 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:25:21.438 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:25:21.438 +02:00 [INF] Finding User by Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 11:25:21.441 +02:00 [INF] Successfully Retrieved item by Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 11:25:29.305 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:25:29.306 +02:00 [INF] Finding User by Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 11:25:29.309 +02:00 [INF] Updating User by Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 11:25:29.337 +02:00 [INF] Successfully Updated User by Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 11:25:31.089 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:25:32.375 +02:00 [FTL] ****** Using non-production Community Edition ******
+2018-06-28 11:25:32.376 +02:00 [INF] Finding User by Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 11:25:32.378 +02:00 [INF] Successfully Retrieved item by Subject 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 11:28:32.735 +02:00 [DBG] Request path /connect/token matched to endpoint type Token
+2018-06-28 11:28:32.761 +02:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2018-06-28 11:28:32.762 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2018-06-28 11:28:32.772 +02:00 [DBG] Start token request.
+2018-06-28 11:28:32.782 +02:00 [DBG] Start client validation
+2018-06-28 11:28:32.790 +02:00 [DBG] Start parsing Basic Authentication secret
+2018-06-28 11:28:32.794 +02:00 [DBG] Start parsing for secret in post body
+2018-06-28 11:28:32.824 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2018-06-28 11:28:32.825 +02:00 [DBG] Secret id found: iam_integration_test_client
+2018-06-28 11:28:33.056 +02:00 [DBG] iam_integration_test_client found in database: true
+2018-06-28 11:28:33.072 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2018-06-28 11:28:33.072 +02:00 [DBG] Client validation success
+2018-06-28 11:28:33.108 +02:00 [INF] {
+  "Name": "Client Authentication Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1010,
+  "ClientId": "iam_integration_test_client",
+  "AuthenticationMethod": "SharedSecret",
+  "ActivityId": "0HLESQVUCH1HH:00000001",
+  "TimeStamp": "2018-06-28T09:28:33Z",
+  "ProcessId": 56614,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-28 11:28:33.120 +02:00 [DBG] Start token request validation
+2018-06-28 11:28:33.136 +02:00 [DBG] Start resource owner password token request validation
+2018-06-28 11:28:33.191 +02:00 [DBG] Found [] identity scopes in database
+2018-06-28 11:28:33.311 +02:00 [DBG] Found ["test_resource"] API scopes in database
+2018-06-28 11:28:33.332 +02:00 [DBG] Found [] identity scopes in database
+2018-06-28 11:28:33.335 +02:00 [DBG] Found ["test_resource"] API scopes in database
+2018-06-28 11:28:33.476 +02:00 [INF] Credentials validated for username: alice
+2018-06-28 11:28:33.483 +02:00 [INF] {
+  "Name": "User Login Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1000,
+  "Username": "alice",
+  "SubjectId": "98a4436f-998d-4afa-93ab-e53a9a10553a",
+  "DisplayName": "alice",
+  "Endpoint": "Token",
+  "ActivityId": "0HLESQVUCH1HH:00000001",
+  "TimeStamp": "2018-06-28T09:28:33Z",
+  "ProcessId": 56614,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-28 11:28:33.498 +02:00 [INF] {
+  "Name": "User Login Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1000,
+  "Username": "alice",
+  "SubjectId": "98a4436f-998d-4afa-93ab-e53a9a10553a",
+  "Endpoint": "Token",
+  "ActivityId": "0HLESQVUCH1HH:00000001",
+  "TimeStamp": "2018-06-28T09:28:33Z",
+  "ProcessId": 56614,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-28 11:28:33.499 +02:00 [DBG] Resource owner password token request validation success.
+2018-06-28 11:28:33.518 +02:00 [INF] Token request validation success
+{
+  "ClientId": "iam_integration_test_client",
+  "ClientName": "Iam Integrationstest",
+  "GrantType": "password",
+  "Scopes": "test_resource",
+  "UserName": "alice",
+  "Raw": {
+    "grant_type": "password",
+    "client_id": "iam_integration_test_client",
+    "client_secret": "***REDACTED***",
+    "scope": "test_resource",
+    "username": "alice",
+    "password": "***REDACTED***"
+  }
+}
+2018-06-28 11:28:33.548 +02:00 [DBG] Getting claims for access token for client: iam_integration_test_client
+2018-06-28 11:28:33.549 +02:00 [DBG] Getting claims for access token for subject: 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 11:28:33.807 +02:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "iam_integration_test_client",
+  "ClientName": "Iam Integrationstest",
+  "Endpoint": "Token",
+  "SubjectId": "98a4436f-998d-4afa-93ab-e53a9a10553a",
+  "Scopes": "test_resource",
+  "GrantType": "password",
+  "Tokens": [
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****1NKg"
+    }
+  ],
+  "ActivityId": "0HLESQVUCH1HH:00000001",
+  "TimeStamp": "2018-06-28T09:28:33Z",
+  "ProcessId": 56614,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-28 11:28:33.808 +02:00 [DBG] Token request success.
+2018-06-28 11:28:33.924 +02:00 [DBG] iam_integration_test_client found in database: true
+2018-06-28 11:28:33.930 +02:00 [DBG] iam_integration_test_client found in database: true
+2018-06-28 11:28:33.939 +02:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2018-06-28 11:28:33.943 +02:00 [DBG] Token validation success
+{
+  "ValidateLifetime": true,
+  "AccessTokenType": "Jwt",
+  "Claims": {
+    "nbf": 1530178113,
+    "exp": 1530181713,
+    "iss": "http://localhost:5000",
+    "aud": [
+      "http://localhost:5000/resources",
+      "test_resource"
+    ],
+    "client_id": "iam_integration_test_client",
+    "sub": "98a4436f-998d-4afa-93ab-e53a9a10553a",
+    "auth_time": 1530178113,
+    "idp": "local",
+    "name": "alice",
+    "test_claim": "true",
+    "scope": "test_resource",
+    "amr": "pwd"
+  }
+}
+2018-06-28 11:28:33.957 +02:00 [DBG] iam_integration_test_client found in database: true
+2018-06-28 11:28:33.960 +02:00 [DBG] iam_integration_test_client found in database: true
+2018-06-28 11:28:33.962 +02:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2018-06-28 11:28:33.963 +02:00 [DBG] Token validation success
+{
+  "ValidateLifetime": true,
+  "AccessTokenType": "Jwt",
+  "Claims": {
+    "nbf": 1530178113,
+    "exp": 1530181713,
+    "iss": "http://localhost:5000",
+    "aud": [
+      "http://localhost:5000/resources",
+      "test_resource"
+    ],
+    "client_id": "iam_integration_test_client",
+    "sub": "98a4436f-998d-4afa-93ab-e53a9a10553a",
+    "auth_time": 1530178113,
+    "idp": "local",
+    "name": "alice",
+    "test_claim": "true",
+    "scope": "test_resource",
+    "amr": "pwd"
+  }
+}
+2018-06-28 11:29:06.525 +02:00 [DBG] Request path /connect/token matched to endpoint type Token
+2018-06-28 11:29:06.525 +02:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2018-06-28 11:29:06.525 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2018-06-28 11:29:06.525 +02:00 [DBG] Start token request.
+2018-06-28 11:29:06.526 +02:00 [DBG] Start client validation
+2018-06-28 11:29:06.526 +02:00 [DBG] Start parsing Basic Authentication secret
+2018-06-28 11:29:06.526 +02:00 [DBG] Start parsing for secret in post body
+2018-06-28 11:29:06.526 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2018-06-28 11:29:06.526 +02:00 [DBG] Secret id found: iam_integration_test_client
+2018-06-28 11:29:06.529 +02:00 [DBG] iam_integration_test_client found in database: true
+2018-06-28 11:29:06.530 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2018-06-28 11:29:06.530 +02:00 [DBG] Client validation success
+2018-06-28 11:29:06.530 +02:00 [INF] {
+  "Name": "Client Authentication Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1010,
+  "ClientId": "iam_integration_test_client",
+  "AuthenticationMethod": "SharedSecret",
+  "ActivityId": "0HLESQVUCH1HK:00000001",
+  "TimeStamp": "2018-06-28T09:29:06Z",
+  "ProcessId": 56614,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-28 11:29:06.530 +02:00 [DBG] Start token request validation
+2018-06-28 11:29:06.530 +02:00 [DBG] Start resource owner password token request validation
+2018-06-28 11:29:06.531 +02:00 [DBG] Found [] identity scopes in database
+2018-06-28 11:29:06.534 +02:00 [DBG] Found ["test_resource"] API scopes in database
+2018-06-28 11:29:06.536 +02:00 [DBG] Found [] identity scopes in database
+2018-06-28 11:29:06.540 +02:00 [DBG] Found ["test_resource"] API scopes in database
+2018-06-28 11:29:06.559 +02:00 [INF] Credentials validated for username: alice
+2018-06-28 11:29:06.559 +02:00 [INF] {
+  "Name": "User Login Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1000,
+  "Username": "alice",
+  "SubjectId": "98a4436f-998d-4afa-93ab-e53a9a10553a",
+  "DisplayName": "alice",
+  "Endpoint": "Token",
+  "ActivityId": "0HLESQVUCH1HK:00000001",
+  "TimeStamp": "2018-06-28T09:29:06Z",
+  "ProcessId": 56614,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-28 11:29:06.559 +02:00 [INF] {
+  "Name": "User Login Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1000,
+  "Username": "alice",
+  "SubjectId": "98a4436f-998d-4afa-93ab-e53a9a10553a",
+  "Endpoint": "Token",
+  "ActivityId": "0HLESQVUCH1HK:00000001",
+  "TimeStamp": "2018-06-28T09:29:06Z",
+  "ProcessId": 56614,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-28 11:29:06.560 +02:00 [DBG] Resource owner password token request validation success.
+2018-06-28 11:29:06.560 +02:00 [INF] Token request validation success
+{
+  "ClientId": "iam_integration_test_client",
+  "ClientName": "Iam Integrationstest",
+  "GrantType": "password",
+  "Scopes": "test_resource",
+  "UserName": "alice",
+  "Raw": {
+    "grant_type": "password",
+    "client_id": "iam_integration_test_client",
+    "client_secret": "***REDACTED***",
+    "scope": "test_resource",
+    "username": "alice",
+    "password": "***REDACTED***"
+  }
+}
+2018-06-28 11:29:06.560 +02:00 [DBG] Getting claims for access token for client: iam_integration_test_client
+2018-06-28 11:29:06.560 +02:00 [DBG] Getting claims for access token for subject: 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 11:29:06.583 +02:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "iam_integration_test_client",
+  "ClientName": "Iam Integrationstest",
+  "Endpoint": "Token",
+  "SubjectId": "98a4436f-998d-4afa-93ab-e53a9a10553a",
+  "Scopes": "test_resource",
+  "GrantType": "password",
+  "Tokens": [
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****GQCw"
+    }
+  ],
+  "ActivityId": "0HLESQVUCH1HK:00000001",
+  "TimeStamp": "2018-06-28T09:29:06Z",
+  "ProcessId": 56614,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-28 11:29:06.583 +02:00 [DBG] Token request success.
+2018-06-28 11:29:06.603 +02:00 [DBG] iam_integration_test_client found in database: true
+2018-06-28 11:29:06.606 +02:00 [DBG] iam_integration_test_client found in database: true
+2018-06-28 11:29:06.609 +02:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2018-06-28 11:29:06.609 +02:00 [DBG] Token validation success
+{
+  "ValidateLifetime": true,
+  "AccessTokenType": "Jwt",
+  "Claims": {
+    "nbf": 1530178146,
+    "exp": 1530181746,
+    "iss": "http://localhost:5000",
+    "aud": [
+      "http://localhost:5000/resources",
+      "test_resource"
+    ],
+    "client_id": "iam_integration_test_client",
+    "sub": "98a4436f-998d-4afa-93ab-e53a9a10553a",
+    "auth_time": 1530178146,
+    "idp": "local",
+    "name": "alice",
+    "test_claim": "true",
+    "scope": "test_resource",
+    "amr": "pwd"
+  }
+}
+2018-06-28 11:29:06.630 +02:00 [DBG] iam_integration_test_client found in database: true
+2018-06-28 11:29:06.634 +02:00 [DBG] iam_integration_test_client found in database: true
+2018-06-28 11:29:06.637 +02:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2018-06-28 11:29:06.638 +02:00 [DBG] Token validation success
+{
+  "ValidateLifetime": true,
+  "AccessTokenType": "Jwt",
+  "Claims": {
+    "nbf": 1530178146,
+    "exp": 1530181746,
+    "iss": "http://localhost:5000",
+    "aud": [
+      "http://localhost:5000/resources",
+      "test_resource"
+    ],
+    "client_id": "iam_integration_test_client",
+    "sub": "98a4436f-998d-4afa-93ab-e53a9a10553a",
+    "auth_time": 1530178146,
+    "idp": "local",
+    "name": "alice",
+    "test_claim": "true",
+    "scope": "test_resource",
+    "amr": "pwd"
+  }
+}
+2018-06-28 11:29:32.946 +02:00 [DBG] Request path /connect/token matched to endpoint type Token
+2018-06-28 11:29:32.947 +02:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2018-06-28 11:29:32.947 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2018-06-28 11:29:32.947 +02:00 [DBG] Start token request.
+2018-06-28 11:29:32.947 +02:00 [DBG] Start client validation
+2018-06-28 11:29:32.947 +02:00 [DBG] Start parsing Basic Authentication secret
+2018-06-28 11:29:32.947 +02:00 [DBG] Start parsing for secret in post body
+2018-06-28 11:29:32.948 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2018-06-28 11:29:32.948 +02:00 [DBG] Secret id found: iam_integration_test_client
+2018-06-28 11:29:32.951 +02:00 [DBG] iam_integration_test_client found in database: true
+2018-06-28 11:29:32.951 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2018-06-28 11:29:32.951 +02:00 [DBG] Client validation success
+2018-06-28 11:29:32.952 +02:00 [INF] {
+  "Name": "Client Authentication Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1010,
+  "ClientId": "iam_integration_test_client",
+  "AuthenticationMethod": "SharedSecret",
+  "ActivityId": "0HLESQVUCH1HO:00000001",
+  "TimeStamp": "2018-06-28T09:29:32Z",
+  "ProcessId": 56614,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-28 11:29:32.952 +02:00 [DBG] Start token request validation
+2018-06-28 11:29:32.952 +02:00 [DBG] Start resource owner password token request validation
+2018-06-28 11:29:32.954 +02:00 [DBG] Found [] identity scopes in database
+2018-06-28 11:29:32.957 +02:00 [DBG] Found ["test_resource"] API scopes in database
+2018-06-28 11:29:32.959 +02:00 [DBG] Found [] identity scopes in database
+2018-06-28 11:29:32.961 +02:00 [DBG] Found ["test_resource"] API scopes in database
+2018-06-28 11:29:32.982 +02:00 [INF] Credentials validated for username: alice
+2018-06-28 11:29:32.982 +02:00 [INF] {
+  "Name": "User Login Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1000,
+  "Username": "alice",
+  "SubjectId": "98a4436f-998d-4afa-93ab-e53a9a10553a",
+  "DisplayName": "alice",
+  "Endpoint": "Token",
+  "ActivityId": "0HLESQVUCH1HO:00000001",
+  "TimeStamp": "2018-06-28T09:29:32Z",
+  "ProcessId": 56614,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-28 11:29:32.982 +02:00 [INF] {
+  "Name": "User Login Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1000,
+  "Username": "alice",
+  "SubjectId": "98a4436f-998d-4afa-93ab-e53a9a10553a",
+  "Endpoint": "Token",
+  "ActivityId": "0HLESQVUCH1HO:00000001",
+  "TimeStamp": "2018-06-28T09:29:32Z",
+  "ProcessId": 56614,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-28 11:29:32.982 +02:00 [DBG] Resource owner password token request validation success.
+2018-06-28 11:29:32.983 +02:00 [INF] Token request validation success
+{
+  "ClientId": "iam_integration_test_client",
+  "ClientName": "Iam Integrationstest",
+  "GrantType": "password",
+  "Scopes": "test_resource",
+  "UserName": "alice",
+  "Raw": {
+    "grant_type": "password",
+    "client_id": "iam_integration_test_client",
+    "client_secret": "***REDACTED***",
+    "scope": "test_resource",
+    "username": "alice",
+    "password": "***REDACTED***"
+  }
+}
+2018-06-28 11:29:32.983 +02:00 [DBG] Getting claims for access token for client: iam_integration_test_client
+2018-06-28 11:29:32.983 +02:00 [DBG] Getting claims for access token for subject: 98a4436f-998d-4afa-93ab-e53a9a10553a
+2018-06-28 11:29:33.005 +02:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "iam_integration_test_client",
+  "ClientName": "Iam Integrationstest",
+  "Endpoint": "Token",
+  "SubjectId": "98a4436f-998d-4afa-93ab-e53a9a10553a",
+  "Scopes": "test_resource",
+  "GrantType": "password",
+  "Tokens": [
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****rxzw"
+    }
+  ],
+  "ActivityId": "0HLESQVUCH1HO:00000001",
+  "TimeStamp": "2018-06-28T09:29:33Z",
+  "ProcessId": 56614,
+  "LocalIpAddress": "127.0.0.1:5000",
+  "RemoteIpAddress": "127.0.0.1"
+}
+2018-06-28 11:29:33.005 +02:00 [DBG] Token request success.
+2018-06-28 11:29:33.020 +02:00 [DBG] iam_integration_test_client found in database: true
+2018-06-28 11:29:33.023 +02:00 [DBG] iam_integration_test_client found in database: true
+2018-06-28 11:29:33.025 +02:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2018-06-28 11:29:33.025 +02:00 [DBG] Token validation success
+{
+  "ValidateLifetime": true,
+  "AccessTokenType": "Jwt",
+  "Claims": {
+    "nbf": 1530178172,
+    "exp": 1530181772,
+    "iss": "http://localhost:5000",
+    "aud": [
+      "http://localhost:5000/resources",
+      "test_resource"
+    ],
+    "client_id": "iam_integration_test_client",
+    "sub": "98a4436f-998d-4afa-93ab-e53a9a10553a",
+    "auth_time": 1530178172,
+    "idp": "local",
+    "name": "alice",
+    "test_claim": "true",
+    "scope": "test_resource",
+    "amr": "pwd"
+  }
+}
+2018-06-28 11:29:33.047 +02:00 [DBG] iam_integration_test_client found in database: true
+2018-06-28 11:29:33.049 +02:00 [DBG] iam_integration_test_client found in database: true
+2018-06-28 11:29:33.051 +02:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2018-06-28 11:29:33.052 +02:00 [DBG] Token validation success
+{
+  "ValidateLifetime": true,
+  "AccessTokenType": "Jwt",
+  "Claims": {
+    "nbf": 1530178172,
+    "exp": 1530181772,
+    "iss": "http://localhost:5000",
+    "aud": [
+      "http://localhost:5000/resources",
+      "test_resource"
+    ],
+    "client_id": "iam_integration_test_client",
+    "sub": "98a4436f-998d-4afa-93ab-e53a9a10553a",
+    "auth_time": 1530178172,
+    "idp": "local",
+    "name": "alice",
+    "test_claim": "true",
+    "scope": "test_resource",
+    "amr": "pwd"
+  }
+}
