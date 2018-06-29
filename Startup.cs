@@ -13,6 +13,7 @@ using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Reflection;
 using IdentityServer.Data;
+using System.IO;
 
 namespace IdentityServer
 {
@@ -22,8 +23,15 @@ namespace IdentityServer
         public IHostingEnvironment Environment { get; }
 
         public Startup(IConfiguration configuration, IHostingEnvironment environment)
-        {
-            Configuration = configuration;
+        {            
+            var currentDirectory = Directory.GetCurrentDirectory();
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(currentDirectory)
+                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+                .AddJsonFile($"appsettings.{environment.EnvironmentName}.json", optional: true)
+                .AddEnvironmentVariables();
+
+            Configuration = builder.Build();
             Environment = environment;
         }
 
@@ -96,6 +104,19 @@ namespace IdentityServer
                     options.ClientId = "708996912208-9m4dkjb5hscn7cjrn5u0r4tbgkbj1fko.apps.googleusercontent.com";
                     options.ClientSecret = "wdfPY6t8H8cecgjlxud__4Gh";
                 });
+
+            var MicrosoftClientId = Configuration["MicrosoftClientId"];
+            var MicrosoftClientSecret = Configuration["MicrosoftClientSecret"];
+
+            if (!String.IsNullOrEmpty(MicrosoftClientId) && !String.IsNullOrEmpty(MicrosoftClientSecret))
+            {
+                services.AddAuthentication()
+                    .AddMicrosoftAccount(options =>
+                    {
+                        options.ClientId = MicrosoftClientId;
+                        options.ClientSecret = MicrosoftClientSecret;
+                    });
+            }
 
             services.UseAdminUI();
         }
