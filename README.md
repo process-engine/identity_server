@@ -24,6 +24,16 @@ Zur Inbetriebnahme des Projekts müssen folgende Befehle ausgeführt werden:
 Sobald die Applikation gestartet ist, kann die Startseite unter
 `http://localhost:5000` gefunden werden.
 
+### Konfiguration
+
+#### Microsoft Identity Provider
+
+Zur Anbindung der Microsoft-Anmeldung müssen in der `appsettings.json` die
+folgenden Einträge vorhanden sein:
+
+* MicrosoftClientId
+* MicrosoftClientSecret
+
 ## Wie kann ich das Projekt benutzen?
 
 ### Nutzung des IdentityServer via HTTP
