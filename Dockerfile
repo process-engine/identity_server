@@ -1,10 +1,6 @@
 FROM microsoft/dotnet:2.0.0-sdk
 
-RUN apt-get update && apt-get install -y curl git
-
 WORKDIR /usr/src
-
-# RUN git clone --branch master https://github.com/process-engine/identity_server.git
 
 COPY . /usr/src/identity_server
 
