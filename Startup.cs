@@ -105,8 +105,8 @@ namespace IdentityServer
                     options.ClientSecret = "wdfPY6t8H8cecgjlxud__4Gh";
                 });
 
-            var MicrosoftClientId = Configuration["MicrosoftClientId"];
-            var MicrosoftClientSecret = Configuration["MicrosoftClientSecret"];
+            var MicrosoftClientId = Configuration["MICROSOFT_CLIENT_ID"];
+            var MicrosoftClientSecret = Configuration["MICROSOFT_CLIENT_SECRET"];
 
             if (!String.IsNullOrEmpty(MicrosoftClientId) && !String.IsNullOrEmpty(MicrosoftClientSecret))
             {
