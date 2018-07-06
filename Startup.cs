@@ -133,6 +133,11 @@ namespace IdentityServer
                 app.UseExceptionHandler("/Home/Error");
             }
 
+            app.UseCors(builder =>
+                builder.WithOrigins("http://localhost:9000")
+                      .AllowAnyHeader()
+                );
+
             app.UseDefaultFiles();
             app.UseStaticFiles();
             app.UseIdentityServer();
