@@ -34,6 +34,7 @@ namespace IdentityServer
                             .WriteTo.File(@"identityserver4_log.txt")
                             .WriteTo.Console(outputTemplate: "[{Timestamp:HH:mm:ss} {Level}] {SourceContext}{NewLine}{Message:lj}{NewLine}{Exception}{NewLine}", theme: AnsiConsoleTheme.Literate);
                     })
+                    .UseKestrel(options => options.ConfigureHTTPS())
                     .Build();
         }
     }

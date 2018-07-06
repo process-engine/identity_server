@@ -23,7 +23,7 @@ namespace IdentityServer
         public IHostingEnvironment Environment { get; }
 
         public Startup(IConfiguration configuration, IHostingEnvironment environment)
-        {            
+        {
             var currentDirectory = Directory.GetCurrentDirectory();
             var builder = new ConfigurationBuilder()
                 .SetBasePath(currentDirectory)
@@ -95,7 +95,7 @@ namespace IdentityServer
             }
             else
             {
-                throw new Exception("need to configure key material");
+                builder.AddDeveloperSigningCredential();
             }
 
             services.AddAuthentication()
