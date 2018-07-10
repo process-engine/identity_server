@@ -3,6 +3,7 @@ namespace ProcessEngine.IdentityServer.Web.Features.Users
     using System;
     using System.Net;
     using System.Net.Mail;
+    using System.Security.Claims;
     using System.Threading.Tasks;
     using IdentityExpress.Identity;
     using Microsoft.AspNetCore.Authorization;
@@ -14,6 +15,8 @@ namespace ProcessEngine.IdentityServer.Web.Features.Users
     [Route("/users")]
     public class UsersController : Controller
     {
+        private const string CLAIM_CAN_CREATE_LOCAL_ADMIN = "can_create_local_admin";
+
         private readonly UserManager<IdentityExpressUser> userManager;
 
         private readonly IdentityExpressDbContext identityExpressDbContext;
@@ -35,7 +38,7 @@ namespace ProcessEngine.IdentityServer.Web.Features.Users
         {
             if (ModelState.IsValid)
             {
-                ClaimCheckResult claimCheckResult = await this.claimCheck.HasClaim(HttpContext.Request.Headers, "can_create_local_admin");
+                ClaimCheckResult claimCheckResult = await this.claimCheck.HasClaim(HttpContext.Request.Headers, CLAIM_CAN_CREATE_LOCAL_ADMIN);
 
                 if (!claimCheckResult.Success)
                 {
@@ -48,6 +51,7 @@ namespace ProcessEngine.IdentityServer.Web.Features.Users
                 var user = new IdentityExpressUser() { Email = model.Email, UserName = model.Name };
                 var result = await this.userManager.CreateAsync(user);
                 await this.identityExpressDbContext.SaveChangesAsync();
+                await this.userManager.AddClaimAsync(user, new Claim(CLAIM_CAN_CREATE_LOCAL_ADMIN, "true", ClaimValueTypes.Boolean));
 
                 if (result.Succeeded)
                 {
@@ -107,7 +111,7 @@ namespace ProcessEngine.IdentityServer.Web.Features.Users
             client.Credentials = new NetworkCredential(configuration["SMTP_USER"], configuration["SMTP_PASSWORD"]);
 
             MailMessage mailMessage = new MailMessage();
-            mailMessage.From = new MailAddress("test@5minds.de");
+            mailMessage.From = new MailAddress("noreply@5minds.de");
             mailMessage.To.Add(user.Email);
             mailMessage.Body = $"{HttpContext.Request.Scheme}://{HttpContext.Request.Host}/users/completeRegistration?token={token}&userId={userId}";
             mailMessage.Subject = "Registrierung";
