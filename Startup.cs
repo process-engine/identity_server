@@ -14,6 +14,7 @@ using System.Reflection;
 using System.IO;
 using IdentityServer4.AspNetIdentity;
 using IdentityExpress.Identity;
+using ProcessEngine.IdentityServer.Web.Features;
 
 namespace IdentityServer
 {
@@ -37,8 +38,12 @@ namespace IdentityServer
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddTransient<IClaimCheck, ClaimCheck>();
+
             services.AddDbContext<IdentityExpressDbContext>(options =>
-                options.UseSqlite(Configuration.GetConnectionString("Users")));
+            {
+                options.UseSqlite(Configuration.GetConnectionString("Users"));
+            });
 
             services.AddIdentity<IdentityExpressUser, IdentityExpressRole>(options =>
             {
@@ -47,7 +52,6 @@ namespace IdentityServer
                 options.Password.RequireLowercase = false;
                 options.Password.RequireNonAlphanumeric = false;
                 options.Password.RequireUppercase = false;
-
             })
                 .AddUserStore<IdentityExpressUserStore>()
                 .AddRoleStore<IdentityExpressRoleStore>()
@@ -90,8 +94,7 @@ namespace IdentityServer
                     // this enables automatic token cleanup. this is optional.
                     options.EnableTokenCleanup = true;
                     // options.TokenCleanupInterval = 15; // interval in seconds. 15 seconds useful for debugging
-                })
-                .AddJwtBearerClientAuthentication();
+                });
 
             if (Environment.IsDevelopment())
             {
@@ -107,7 +110,7 @@ namespace IdentityServer
                 {
                     options.ClientId = "708996912208-9m4dkjb5hscn7cjrn5u0r4tbgkbj1fko.apps.googleusercontent.com";
                     options.ClientSecret = "wdfPY6t8H8cecgjlxud__4Gh";
-                }).AddJwtBearer();
+                });
 
             var MicrosoftClientId = Configuration["MICROSOFT_CLIENT_ID"];
             var MicrosoftClientSecret = Configuration["MICROSOFT_CLIENT_SECRET"];
@@ -137,10 +140,10 @@ namespace IdentityServer
                 app.UseExceptionHandler("/Home/Error");
             }
 
-            app.UseAuthentication();
             app.UseDefaultFiles();
             app.UseStaticFiles();
             app.UseIdentityServer();
+            app.UseAuthentication();
             app.UseMvcWithDefaultRoute();
             app.UseAdminUI();
         }
