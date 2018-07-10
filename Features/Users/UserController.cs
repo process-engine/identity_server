@@ -108,6 +108,7 @@ namespace ProcessEngine.IdentityServer.Web.Features.Users
 
             SmtpClient client = new SmtpClient(configuration["SMTP_SERVER"]);
             client.UseDefaultCredentials = false;
+            client.Port = 587;
             client.Credentials = new NetworkCredential(configuration["SMTP_USER"], configuration["SMTP_PASSWORD"]);
 
             MailMessage mailMessage = new MailMessage();
