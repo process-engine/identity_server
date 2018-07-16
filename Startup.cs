@@ -75,6 +75,7 @@ namespace IdentityServer
                 options.Events.RaiseInformationEvents = true;
                 options.Events.RaiseFailureEvents = true;
                 options.Events.RaiseSuccessEvents = true;
+                options.IssuerUri = "http://localhost:5000";
             })
                 .AddAspNetIdentity<IdentityExpressUser>()
                 // this adds the config data from DB (clients, resources, CORS)
@@ -124,6 +125,8 @@ namespace IdentityServer
                         options.ClientSecret = MicrosoftClientSecret;
                     });
             }
+            
+            Microsoft.IdentityModel.Logging.IdentityModelEventSource.ShowPII = true;
 
             services.UseAdminUI();
         }
