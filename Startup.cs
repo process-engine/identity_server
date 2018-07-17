@@ -3,7 +3,6 @@
 
 
 using IdentityServer4;
-using IdentityServer.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
@@ -12,8 +11,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Reflection;
-using IdentityServer.Data;
 using System.IO;
+using IdentityServer4.AspNetIdentity;
+using IdentityExpress.Identity;
+using ProcessEngine.IdentityServer.Web.Features;
 
 namespace IdentityServer
 {
@@ -37,10 +38,14 @@ namespace IdentityServer
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlite(Configuration.GetConnectionString("Users")));
+            services.AddTransient<IClaimCheck, ClaimCheck>();
 
-            services.AddIdentity<ApplicationUser, IdentityRole>(options =>
+            services.AddDbContext<IdentityExpressDbContext>(options =>
+            {
+                options.UseSqlite(Configuration.GetConnectionString("Users"));
+            });
+
+            services.AddIdentity<IdentityExpressUser, IdentityExpressRole>(options =>
             {
                 options.Password.RequireDigit = false;
                 options.Password.RequiredLength = 5;
@@ -48,7 +53,9 @@ namespace IdentityServer
                 options.Password.RequireNonAlphanumeric = false;
                 options.Password.RequireUppercase = false;
             })
-                .AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddUserStore<IdentityExpressUserStore>()
+                .AddRoleStore<IdentityExpressRoleStore>()
+                .AddIdentityExpressUserClaimsPrincipalFactory()
                 .AddDefaultTokenProviders();
 
             services.AddMvc();
@@ -69,7 +76,7 @@ namespace IdentityServer
                 options.Events.RaiseFailureEvents = true;
                 options.Events.RaiseSuccessEvents = true;
             })
-                .AddAspNetIdentity<ApplicationUser>()
+                .AddAspNetIdentity<IdentityExpressUser>()
                 // this adds the config data from DB (clients, resources, CORS)
                 .AddConfigurationStore(options =>
                 {
@@ -77,7 +84,7 @@ namespace IdentityServer
                         db.UseSqlite(connectionString,
                             sql => sql.MigrationsAssembly(migrationsAssembly));
                 })
-                // this adds the operational data from DB (codes, tokens, consents)
+                // // this adds the operational data from DB (codes, tokens, consents)
                 .AddOperationalStore(options =>
                 {
                     options.ConfigureDbContext = db =>
@@ -133,14 +140,10 @@ namespace IdentityServer
                 app.UseExceptionHandler("/Home/Error");
             }
 
-            app.UseCors(builder =>
-                builder.WithOrigins("http://localhost:9000")
-                      .AllowAnyHeader()
-                );
-
             app.UseDefaultFiles();
             app.UseStaticFiles();
             app.UseIdentityServer();
+            app.UseAuthentication();
             app.UseMvcWithDefaultRoute();
             app.UseAdminUI();
         }
