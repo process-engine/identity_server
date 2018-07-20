@@ -15,7 +15,7 @@ namespace ProcessEngine.IdentityServer.Web.Features.Users
     [Route("/users")]
     public class UsersController : Controller
     {
-        private const string CLAIM_CAN_CREATE_LOCAL_ADMIN = "can_create_local_admin";
+        private const string CLAIM_CAN_CREATE_LOCAL_ADMIN = "admin";
 
         private readonly UserManager<IdentityExpressUser> userManager;
 
