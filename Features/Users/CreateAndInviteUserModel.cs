@@ -9,5 +9,7 @@ namespace ProcessEngine.IdentityServer.Web.Features.Users
 
         [Required]
         public string Email { get; set; }
+
+        public string Claim { get; set; }
     }
 }

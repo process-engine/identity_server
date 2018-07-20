@@ -51,7 +51,11 @@ namespace ProcessEngine.IdentityServer.Web.Features.Users
                 var user = new IdentityExpressUser() { Email = model.Email, UserName = model.Name };
                 var result = await this.userManager.CreateAsync(user);
                 await this.identityExpressDbContext.SaveChangesAsync();
-                await this.userManager.AddClaimAsync(user, new Claim(CLAIM_CAN_CREATE_LOCAL_ADMIN, "true", ClaimValueTypes.Boolean));
+
+                if (!string.IsNullOrEmpty(model.Claim))
+                {
+                    await this.userManager.AddClaimAsync(user, new Claim(model.Claim, "true", ClaimValueTypes.Boolean));
+                }
 
                 if (result.Succeeded)
                 {
