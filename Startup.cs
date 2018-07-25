@@ -140,11 +140,12 @@ namespace IdentityServer
                 app.UseExceptionHandler("/Home/Error");
             }
             app.UseCors(builder =>
-                builder.WithOrigins("http://localhost:9000")
+                builder.WithOrigins("http://localhost:9000", "http://localhost:17290")
                        .AllowAnyHeader()
                        .AllowAnyMethod()
                        .AllowCredentials()
                 );
+                
             app.UseDefaultFiles();
             app.UseStaticFiles();
             app.UseIdentityServer();
