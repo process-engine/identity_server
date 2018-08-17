@@ -32,9 +32,11 @@ namespace IdentityServer4.Quickstart.UI
         private readonly IClientStore _clientStore;
         private readonly IAuthenticationSchemeProvider _schemeProvider;
         private readonly IEventService _events;
+        private readonly IdentityExpressDbContext _identityExpressDbContext;
 
         public AccountController(
             UserManager<IdentityExpressUser> userManager,
+            IdentityExpressDbContext identityExpressDbContext,
             SignInManager<IdentityExpressUser> signInManager,
             IIdentityServerInteractionService interaction,
             IClientStore clientStore,
@@ -42,6 +44,7 @@ namespace IdentityServer4.Quickstart.UI
             IEventService events)
         {
             _userManager = userManager;
+            _identityExpressDbContext = identityExpressDbContext;
             _signInManager = signInManager;
             _interaction = interaction;
             _clientStore = clientStore;
@@ -80,7 +83,7 @@ namespace IdentityServer4.Quickstart.UI
                 var context = await _interaction.GetAuthorizationContextAsync(model.ReturnUrl);
                 if (context != null)
                 {
-                    // if the user cancels, send a result back into IdentityServer as if they 
+                    // if the user cancels, send a result back into IdentityServer as if they
                     // denied the consent (even if this client does not require consent).
                     // this will send back an access denied OIDC error response to the client.
                     await _interaction.GrantConsentAsync(context, ConsentResponse.Denied);
@@ -136,7 +139,7 @@ namespace IdentityServer4.Quickstart.UI
             }
             else
             {
-                // start challenge and roundtrip the return URL and 
+                // start challenge and roundtrip the return URL and
                 var props = new AuthenticationProperties()
                 {
                     RedirectUri = Url.Action("ExternalLoginCallback"),
@@ -498,15 +501,20 @@ namespace IdentityServer4.Quickstart.UI
             var identityResult = await _userManager.CreateAsync(user);
             if (!identityResult.Succeeded) throw new Exception(identityResult.Errors.First().Description);
 
+            await _identityExpressDbContext.SaveChangesAsync();
+
             if (filtered.Any())
             {
                 identityResult = await _userManager.AddClaimsAsync(user, filtered);
                 if (!identityResult.Succeeded) throw new Exception(identityResult.Errors.First().Description);
             }
 
+            await _identityExpressDbContext.SaveChangesAsync();
+
             identityResult = await _userManager.AddLoginAsync(user, new UserLoginInfo(provider, providerUserId, provider));
             if (!identityResult.Succeeded) throw new Exception(identityResult.Errors.First().Description);
 
+            await _identityExpressDbContext.SaveChangesAsync();
             return user;
         }
 
