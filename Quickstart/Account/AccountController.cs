@@ -495,7 +495,8 @@ namespace IdentityServer4.Quickstart.UI
 
             var user = new IdentityExpressUser
             {
-                UserName = Guid.NewGuid().ToString(),
+                Id = providerUserId,
+                UserName = name.Replace(" ", string.Empty),
                 Email = email
             };
             var identityResult = await _userManager.CreateAsync(user);
