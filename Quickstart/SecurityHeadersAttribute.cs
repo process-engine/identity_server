@@ -23,7 +23,7 @@ namespace IdentityServer4.Quickstart.UI
                 // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options
                 if (!context.HttpContext.Response.Headers.ContainsKey("X-Frame-Options"))
                 {
-                    context.HttpContext.Response.Headers.Add("X-Frame-Options", "SAMEORIGIN");
+                    context.HttpContext.Response.Headers.Add("X-Frame-Options", "allow-from https://www.facebook.com");
                 }
 
                 //// !!!!!!!!!!!!!! frame-ancestors 'none'; entfernt  !!!!!!!!!!!!!!!!!!
