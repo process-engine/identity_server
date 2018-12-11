@@ -132,6 +132,7 @@ namespace IdentityServer
 
         public void Configure(IApplicationBuilder appBuilder)
         {
+            appBuilder.UseAdminUI();
             appBuilder.Map("/identityserver", app =>
             {
 
@@ -156,7 +157,6 @@ namespace IdentityServer
                 app.UseIdentityServer();
                 app.UseAuthentication();
                 app.UseMvcWithDefaultRoute();
-                app.UseAdminUI();
             });
         }
     }
