@@ -74,6 +74,7 @@ namespace IdentityServer4.Quickstart.UI
         /// Handle postback from username/password login
         /// </summary>
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Login(LoginInputModel model, string button)
         {
             if (button != "login")
