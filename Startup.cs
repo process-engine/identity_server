@@ -15,6 +15,9 @@ using System.IO;
 using IdentityServer4.AspNetIdentity;
 using IdentityExpress.Identity;
 using ProcessEngine.IdentityServer.Web.Features;
+using ProcessEngine.IdentityServer.Web.Features.ExternalAuthentication.Provider;
+using IdentityServer4.Validation;
+using ProcessEngine.IdentityServer.Web.Features.ExternalAuthentication;
 
 namespace IdentityServer
 {
@@ -125,6 +128,10 @@ namespace IdentityServer
                     });
             }
 
+
+            services.AddScoped<IExtensionGrantValidator, ExternalAuthenticationGrant<IdentityExpressUser>>();
+            services.AddTransient<IExternalAuthProviderFactory, ExternalAuthProviderFactory>();
+
             services.UseAdminUI();
         }
 
@@ -145,7 +152,7 @@ namespace IdentityServer
                        .AllowAnyMethod()
                        .AllowCredentials()
                 );
-                
+
             app.UseDefaultFiles();
             app.UseStaticFiles();
             app.UseIdentityServer();
