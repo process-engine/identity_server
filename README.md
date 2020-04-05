@@ -95,7 +95,4 @@ TODO
 
 # Wen kann ich auf das Projekt ansprechen?
 
-[Christoph Gnip](mailto:christoph.gnip@5minds.de)
-[Robin Lenz](mailto:robin.lenz@5minds.de)
-[Sebastian Meier](mailto:sebastian.meier@5minds.de)
 [Christian Werner](mailto:christian.werner@5minds.de)
