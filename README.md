@@ -18,8 +18,19 @@ Testzwecken genutzt werden kann.
 
 Zur Inbetriebnahme des Projekts müssen folgende Befehle ausgeführt werden:
 
-1. dotnet restore               // stelle alle abhängigen Pakete wieder her
-2. dotnet run                   // führe die Applikation aus
+### Mit `dotnet`
+
+```bash
+dotnet restore
+dotnet run
+```
+
+### Mit Docker
+
+```bash
+docker build . -t identityserver
+docker run -p 5000:5000 identityserver
+```
 
 Sobald die Applikation gestartet ist, kann die Startseite unter
 `http://localhost:5000` gefunden werden.
@@ -91,7 +102,7 @@ Wenn diese Änderungen mit anderen Personen geteilt werden sollen, kann die
 
 ### Vorkonfigurierte Daten
 
-TODO
+Es gibt zwei Benutzeraccount `alice` und `bob`. Das Passwort dieser Accounts ist `Admin1234*`.
 
 # Wen kann ich auf das Projekt ansprechen?
 
